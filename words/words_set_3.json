@@ -1,0 +1,1098 @@
+[
+    {
+        "word": "stad",
+        "type": "dutch"
+    },
+    {
+        "word": "місто",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dorp",
+        "type": "dutch"
+    },
+    {
+        "word": "село",
+        "type": "ukrainian"
+    },
+    {
+        "word": "land",
+        "type": "dutch"
+    },
+    {
+        "word": "країна",
+        "type": "ukrainian"
+    },
+    {
+        "word": "continent",
+        "type": "dutch"
+    },
+    {
+        "word": "континент",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wereld",
+        "type": "dutch"
+    },
+    {
+        "word": "світ",
+        "type": "ukrainian"
+    },
+    {
+        "word": "planeet",
+        "type": "dutch"
+    },
+    {
+        "word": "планета",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Amsterdam",
+        "type": "dutch"
+    },
+    {
+        "word": "Амстердам",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Rotterdam",
+        "type": "dutch"
+    },
+    {
+        "word": "Роттердам",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Den Haag",
+        "type": "dutch"
+    },
+    {
+        "word": "Гаага",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Utrecht",
+        "type": "dutch"
+    },
+    {
+        "word": "Утрехт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Kyiv",
+        "type": "dutch"
+    },
+    {
+        "word": "Київ",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Lviv",
+        "type": "dutch"
+    },
+    {
+        "word": "Львів",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Odesa",
+        "type": "dutch"
+    },
+    {
+        "word": "Одеса",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Kharkiv",
+        "type": "dutch"
+    },
+    {
+        "word": "Харків",
+        "type": "ukrainian"
+    },
+    {
+        "word": "straat",
+        "type": "dutch"
+    },
+    {
+        "word": "вулиця",
+        "type": "ukrainian"
+    },
+    {
+        "word": "plein",
+        "type": "dutch"
+    },
+    {
+        "word": "площа",
+        "type": "ukrainian"
+    },
+    {
+        "word": "park",
+        "type": "dutch"
+    },
+    {
+        "word": "парк",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tuin",
+        "type": "dutch"
+    },
+    {
+        "word": "сад",
+        "type": "ukrainian"
+    },
+    {
+        "word": "brug",
+        "type": "dutch"
+    },
+    {
+        "word": "міст",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kanaal",
+        "type": "dutch"
+    },
+    {
+        "word": "канал",
+        "type": "ukrainian"
+    },
+    {
+        "word": "haven",
+        "type": "dutch"
+    },
+    {
+        "word": "порт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "luchthaven",
+        "type": "dutch"
+    },
+    {
+        "word": "аеропорт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "station",
+        "type": "dutch"
+    },
+    {
+        "word": "вокзал",
+        "type": "ukrainian"
+    },
+    {
+        "word": "halte",
+        "type": "dutch"
+    },
+    {
+        "word": "зупинка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "weg",
+        "type": "dutch"
+    },
+    {
+        "word": "дорога",
+        "type": "ukrainian"
+    },
+    {
+        "word": "snelweg",
+        "type": "dutch"
+    },
+    {
+        "word": "автострада",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kruispunt",
+        "type": "dutch"
+    },
+    {
+        "word": "перехрестя",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rotonde",
+        "type": "dutch"
+    },
+    {
+        "word": "кільце",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tunnel",
+        "type": "dutch"
+    },
+    {
+        "word": "тунель",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gebouw",
+        "type": "dutch"
+    },
+    {
+        "word": "будівля",
+        "type": "ukrainian"
+    },
+    {
+        "word": "toren",
+        "type": "dutch"
+    },
+    {
+        "word": "вежа",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kasteel",
+        "type": "dutch"
+    },
+    {
+        "word": "замок",
+        "type": "ukrainian"
+    },
+    {
+        "word": "paleis",
+        "type": "dutch"
+    },
+    {
+        "word": "палац",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kerk",
+        "type": "dutch"
+    },
+    {
+        "word": "церква",
+        "type": "ukrainian"
+    },
+    {
+        "word": "moskee",
+        "type": "dutch"
+    },
+    {
+        "word": "мечеть",
+        "type": "ukrainian"
+    },
+    {
+        "word": "synagoge",
+        "type": "dutch"
+    },
+    {
+        "word": "синагога",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tempel",
+        "type": "dutch"
+    },
+    {
+        "word": "храм",
+        "type": "ukrainian"
+    },
+    {
+        "word": "museum",
+        "type": "dutch"
+    },
+    {
+        "word": "музей",
+        "type": "ukrainian"
+    },
+    {
+        "word": "theater",
+        "type": "dutch"
+    },
+    {
+        "word": "театр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bioscoop",
+        "type": "dutch"
+    },
+    {
+        "word": "кінотеатр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bibliotheek",
+        "type": "dutch"
+    },
+    {
+        "word": "бібліотека",
+        "type": "ukrainian"
+    },
+    {
+        "word": "school",
+        "type": "dutch"
+    },
+    {
+        "word": "школа",
+        "type": "ukrainian"
+    },
+    {
+        "word": "universiteit",
+        "type": "dutch"
+    },
+    {
+        "word": "університет",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ziekenhuis",
+        "type": "dutch"
+    },
+    {
+        "word": "лікарня",
+        "type": "ukrainian"
+    },
+    {
+        "word": "apotheek",
+        "type": "dutch"
+    },
+    {
+        "word": "аптека",
+        "type": "ukrainian"
+    },
+    {
+        "word": "winkel",
+        "type": "dutch"
+    },
+    {
+        "word": "магазин",
+        "type": "ukrainian"
+    },
+    {
+        "word": "supermarkt",
+        "type": "dutch"
+    },
+    {
+        "word": "супермаркет",
+        "type": "ukrainian"
+    },
+    {
+        "word": "markt",
+        "type": "dutch"
+    },
+    {
+        "word": "ринок",
+        "type": "ukrainian"
+    },
+    {
+        "word": "restaurant",
+        "type": "dutch"
+    },
+    {
+        "word": "ресторан",
+        "type": "ukrainian"
+    },
+    {
+        "word": "café",
+        "type": "dutch"
+    },
+    {
+        "word": "кафе",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bar",
+        "type": "dutch"
+    },
+    {
+        "word": "бар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hotel",
+        "type": "dutch"
+    },
+    {
+        "word": "готель",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bank",
+        "type": "dutch"
+    },
+    {
+        "word": "банк",
+        "type": "ukrainian"
+    },
+    {
+        "word": "postkantoor",
+        "type": "dutch"
+    },
+    {
+        "word": "пошта",
+        "type": "ukrainian"
+    },
+    {
+        "word": "politiebureau",
+        "type": "dutch"
+    },
+    {
+        "word": "поліція",
+        "type": "ukrainian"
+    },
+    {
+        "word": "brandweerkazerne",
+        "type": "dutch"
+    },
+    {
+        "word": "пожежна частина",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gevangenis",
+        "type": "dutch"
+    },
+    {
+        "word": "в'язниця",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rechtbank",
+        "type": "dutch"
+    },
+    {
+        "word": "суд",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ambassade",
+        "type": "dutch"
+    },
+    {
+        "word": "посольство",
+        "type": "ukrainian"
+    },
+    {
+        "word": "fabriek",
+        "type": "dutch"
+    },
+    {
+        "word": "фабрика",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kantoor",
+        "type": "dutch"
+    },
+    {
+        "word": "офіс",
+        "type": "ukrainian"
+    },
+    {
+        "word": "magazijn",
+        "type": "dutch"
+    },
+    {
+        "word": "склад",
+        "type": "ukrainian"
+    },
+    {
+        "word": "parkeerplaats",
+        "type": "dutch"
+    },
+    {
+        "word": "парковка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "garage",
+        "type": "dutch"
+    },
+    {
+        "word": "гараж",
+        "type": "ukrainian"
+    },
+    {
+        "word": "benzinestation",
+        "type": "dutch"
+    },
+    {
+        "word": "заправка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "speeltuin",
+        "type": "dutch"
+    },
+    {
+        "word": "дитячий майданчик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zwembad",
+        "type": "dutch"
+    },
+    {
+        "word": "басейн",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sporthal",
+        "type": "dutch"
+    },
+    {
+        "word": "спортзал",
+        "type": "ukrainian"
+    },
+    {
+        "word": "stadion",
+        "type": "dutch"
+    },
+    {
+        "word": "стадіон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "circuit",
+        "type": "dutch"
+    },
+    {
+        "word": "траса",
+        "type": "ukrainian"
+    },
+    {
+        "word": "camping",
+        "type": "dutch"
+    },
+    {
+        "word": "кемпінг",
+        "type": "ukrainian"
+    },
+    {
+        "word": "boerderij",
+        "type": "dutch"
+    },
+    {
+        "word": "ферма",
+        "type": "ukrainian"
+    },
+    {
+        "word": "molen",
+        "type": "dutch"
+    },
+    {
+        "word": "млин",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pier",
+        "type": "dutch"
+    },
+    {
+        "word": "пірс",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vuurtoren",
+        "type": "dutch"
+    },
+    {
+        "word": "маяк",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dam",
+        "type": "dutch"
+    },
+    {
+        "word": "дамба",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dijk",
+        "type": "dutch"
+    },
+    {
+        "word": "дамба",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sluis",
+        "type": "dutch"
+    },
+    {
+        "word": "шлюз",
+        "type": "ukrainian"
+    },
+    {
+        "word": "fontein",
+        "type": "dutch"
+    },
+    {
+        "word": "фонтан",
+        "type": "ukrainian"
+    },
+    {
+        "word": "standbeeld",
+        "type": "dutch"
+    },
+    {
+        "word": "статуя",
+        "type": "ukrainian"
+    },
+    {
+        "word": "monument",
+        "type": "dutch"
+    },
+    {
+        "word": "пам'ятник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hek",
+        "type": "dutch"
+    },
+    {
+        "word": "ворота",
+        "type": "ukrainian"
+    },
+    {
+        "word": "muur",
+        "type": "dutch"
+    },
+    {
+        "word": "стіна",
+        "type": "ukrainian"
+    },
+    {
+        "word": "poort",
+        "type": "dutch"
+    },
+    {
+        "word": "ворота",
+        "type": "ukrainian"
+    },
+    {
+        "word": "trap",
+        "type": "dutch"
+    },
+    {
+        "word": "сходи",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lift",
+        "type": "dutch"
+    },
+    {
+        "word": "ліфт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "balkon",
+        "type": "dutch"
+    },
+    {
+        "word": "балкон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "terras",
+        "type": "dutch"
+    },
+    {
+        "word": "тераса",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dak",
+        "type": "dutch"
+    },
+    {
+        "word": "дах",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schoorsteen",
+        "type": "dutch"
+    },
+    {
+        "word": "димохід",
+        "type": "ukrainian"
+    },
+    {
+        "word": "raam",
+        "type": "dutch"
+    },
+    {
+        "word": "вікно",
+        "type": "ukrainian"
+    },
+    {
+        "word": "deur",
+        "type": "dutch"
+    },
+    {
+        "word": "двері",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vloer",
+        "type": "dutch"
+    },
+    {
+        "word": "підлога",
+        "type": "ukrainian"
+    },
+    {
+        "word": "plafond",
+        "type": "dutch"
+    },
+    {
+        "word": "стеля",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kamer",
+        "type": "dutch"
+    },
+    {
+        "word": "кімната",
+        "type": "ukrainian"
+    },
+    {
+        "word": "woonkamer",
+        "type": "dutch"
+    },
+    {
+        "word": "вітальня",
+        "type": "ukrainian"
+    },
+    {
+        "word": "slaapkamer",
+        "type": "dutch"
+    },
+    {
+        "word": "спальня",
+        "type": "ukrainian"
+    },
+    {
+        "word": "keuken",
+        "type": "dutch"
+    },
+    {
+        "word": "кухня",
+        "type": "ukrainian"
+    },
+    {
+        "word": "badkamer",
+        "type": "dutch"
+    },
+    {
+        "word": "ванна",
+        "type": "ukrainian"
+    },
+    {
+        "word": "toilet",
+        "type": "dutch"
+    },
+    {
+        "word": "туалет",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gang",
+        "type": "dutch"
+    },
+    {
+        "word": "коридор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zolder",
+        "type": "dutch"
+    },
+    {
+        "word": "горище",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kelder",
+        "type": "dutch"
+    },
+    {
+        "word": "підвал",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Europa",
+        "type": "dutch"
+    },
+    {
+        "word": "Європа",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Azië",
+        "type": "dutch"
+    },
+    {
+        "word": "Азія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Afrika",
+        "type": "dutch"
+    },
+    {
+        "word": "Африка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Amerika",
+        "type": "dutch"
+    },
+    {
+        "word": "Америка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Australië",
+        "type": "dutch"
+    },
+    {
+        "word": "Австралія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Antarctica",
+        "type": "dutch"
+    },
+    {
+        "word": "Антарктида",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Nederland",
+        "type": "dutch"
+    },
+    {
+        "word": "Нідерланди",
+        "type": "ukrainian"
+    },
+    {
+        "word": "België",
+        "type": "dutch"
+    },
+    {
+        "word": "Бельгія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Duitsland",
+        "type": "dutch"
+    },
+    {
+        "word": "Німеччина",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Frankrijk",
+        "type": "dutch"
+    },
+    {
+        "word": "Франція",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Spanje",
+        "type": "dutch"
+    },
+    {
+        "word": "Іспанія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Italië",
+        "type": "dutch"
+    },
+    {
+        "word": "Італія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Griekenland",
+        "type": "dutch"
+    },
+    {
+        "word": "Грецін",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Turkije",
+        "type": "dutch"
+    },
+    {
+        "word": "Туреччина",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Rusland",
+        "type": "dutch"
+    },
+    {
+        "word": "Росія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Oekraïne",
+        "type": "dutch"
+    },
+    {
+        "word": "Україна",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Polen",
+        "type": "dutch"
+    },
+    {
+        "word": "Польща",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Tsjechië",
+        "type": "dutch"
+    },
+    {
+        "word": "Чехія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Oostenrijk",
+        "type": "dutch"
+    },
+    {
+        "word": "Австрія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Zwitserland",
+        "type": "dutch"
+    },
+    {
+        "word": "Швейцарія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Zweden",
+        "type": "dutch"
+    },
+    {
+        "word": "Швеція",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Noorwegen",
+        "type": "dutch"
+    },
+    {
+        "word": "Норвегія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Denemarken",
+        "type": "dutch"
+    },
+    {
+        "word": "Данія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Finland",
+        "type": "dutch"
+    },
+    {
+        "word": "Фінляндія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "IJsland",
+        "type": "dutch"
+    },
+    {
+        "word": "Ісландія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Ierland",
+        "type": "dutch"
+    },
+    {
+        "word": "Ірландія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Engeland",
+        "type": "dutch"
+    },
+    {
+        "word": "Англія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Schotland",
+        "type": "dutch"
+    },
+    {
+        "word": "Шотландія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Wales",
+        "type": "dutch"
+    },
+    {
+        "word": "Уельс",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Portugal",
+        "type": "dutch"
+    },
+    {
+        "word": "Португалія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Roemenië",
+        "type": "dutch"
+    },
+    {
+        "word": "Румунія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Bulgarije",
+        "type": "dutch"
+    },
+    {
+        "word": "Болгарія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Kroatië",
+        "type": "dutch"
+    },
+    {
+        "word": "Хорватія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "Servië",
+        "type": "dutch"
+    },
+    {
+        "word": "Сербія",
+        "type": "ukrainian"
+    }
+]

@@ -1,0 +1,1258 @@
+[
+    {
+        "word": "hond",
+        "type": "dutch"
+    },
+    {
+        "word": "собака",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kat",
+        "type": "dutch"
+    },
+    {
+        "word": "кіт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "paard",
+        "type": "dutch"
+    },
+    {
+        "word": "кінь",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koe",
+        "type": "dutch"
+    },
+    {
+        "word": "корова",
+        "type": "ukrainian"
+    },
+    {
+        "word": "varken",
+        "type": "dutch"
+    },
+    {
+        "word": "свиня",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schaap",
+        "type": "dutch"
+    },
+    {
+        "word": "вівця",
+        "type": "ukrainian"
+    },
+    {
+        "word": "geit",
+        "type": "dutch"
+    },
+    {
+        "word": "коза",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ezel",
+        "type": "dutch"
+    },
+    {
+        "word": "осел",
+        "type": "ukrainian"
+    },
+    {
+        "word": "konijn",
+        "type": "dutch"
+    },
+    {
+        "word": "кролик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "muis",
+        "type": "dutch"
+    },
+    {
+        "word": "миша",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rat",
+        "type": "dutch"
+    },
+    {
+        "word": "щур",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hamster",
+        "type": "dutch"
+    },
+    {
+        "word": "хом'як",
+        "type": "ukrainian"
+    },
+    {
+        "word": "cavia",
+        "type": "dutch"
+    },
+    {
+        "word": "морська свинка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "eekhoorn",
+        "type": "dutch"
+    },
+    {
+        "word": "білка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vos",
+        "type": "dutch"
+    },
+    {
+        "word": "лис",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wolf",
+        "type": "dutch"
+    },
+    {
+        "word": "вовк",
+        "type": "ukrainian"
+    },
+    {
+        "word": "beer",
+        "type": "dutch"
+    },
+    {
+        "word": "ведмідь",
+        "type": "ukrainian"
+    },
+    {
+        "word": "leeuw",
+        "type": "dutch"
+    },
+    {
+        "word": "лев",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tijger",
+        "type": "dutch"
+    },
+    {
+        "word": "тигр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "luipaard",
+        "type": "dutch"
+    },
+    {
+        "word": "леопард",
+        "type": "ukrainian"
+    },
+    {
+        "word": "panter",
+        "type": "dutch"
+    },
+    {
+        "word": "пантера",
+        "type": "ukrainian"
+    },
+    {
+        "word": "jaguar",
+        "type": "dutch"
+    },
+    {
+        "word": "ягуар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "puma",
+        "type": "dutch"
+    },
+    {
+        "word": "пума",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lynx",
+        "type": "dutch"
+    },
+    {
+        "word": "рись",
+        "type": "ukrainian"
+    },
+    {
+        "word": "olifant",
+        "type": "dutch"
+    },
+    {
+        "word": "слон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "neushoorn",
+        "type": "dutch"
+    },
+    {
+        "word": "носоріг",
+        "type": "ukrainian"
+    },
+    {
+        "word": "nijlpaard",
+        "type": "dutch"
+    },
+    {
+        "word": "бегемот",
+        "type": "ukrainian"
+    },
+    {
+        "word": "giraffe",
+        "type": "dutch"
+    },
+    {
+        "word": "жираф",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zebra",
+        "type": "dutch"
+    },
+    {
+        "word": "зебра",
+        "type": "ukrainian"
+    },
+    {
+        "word": "antilope",
+        "type": "dutch"
+    },
+    {
+        "word": "антилопа",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gazelle",
+        "type": "dutch"
+    },
+    {
+        "word": "газель",
+        "type": "ukrainian"
+    },
+    {
+        "word": "buffel",
+        "type": "dutch"
+    },
+    {
+        "word": "буйвол",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bizon",
+        "type": "dutch"
+    },
+    {
+        "word": "бізон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kameel",
+        "type": "dutch"
+    },
+    {
+        "word": "верблюд",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lama",
+        "type": "dutch"
+    },
+    {
+        "word": "лама",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kangoeroo",
+        "type": "dutch"
+    },
+    {
+        "word": "кенгуру",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koala",
+        "type": "dutch"
+    },
+    {
+        "word": "коала",
+        "type": "ukrainian"
+    },
+    {
+        "word": "panda",
+        "type": "dutch"
+    },
+    {
+        "word": "панда",
+        "type": "ukrainian"
+    },
+    {
+        "word": "aap",
+        "type": "dutch"
+    },
+    {
+        "word": "мавпа",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gorilla",
+        "type": "dutch"
+    },
+    {
+        "word": "горила",
+        "type": "ukrainian"
+    },
+    {
+        "word": "chimpansee",
+        "type": "dutch"
+    },
+    {
+        "word": "шимпанзе",
+        "type": "ukrainian"
+    },
+    {
+        "word": "orangutan",
+        "type": "dutch"
+    },
+    {
+        "word": "орангутанг",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hert",
+        "type": "dutch"
+    },
+    {
+        "word": "олень",
+        "type": "ukrainian"
+    },
+    {
+        "word": "eland",
+        "type": "dutch"
+    },
+    {
+        "word": "лось",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rendier",
+        "type": "dutch"
+    },
+    {
+        "word": "північний олень",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zwijn",
+        "type": "dutch"
+    },
+    {
+        "word": "кабан",
+        "type": "ukrainian"
+    },
+    {
+        "word": "egel",
+        "type": "dutch"
+    },
+    {
+        "word": "їжак",
+        "type": "ukrainian"
+    },
+    {
+        "word": "mol",
+        "type": "dutch"
+    },
+    {
+        "word": "кріт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "das",
+        "type": "dutch"
+    },
+    {
+        "word": "борсук",
+        "type": "ukrainian"
+    },
+    {
+        "word": "otter",
+        "type": "dutch"
+    },
+    {
+        "word": "видра",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bever",
+        "type": "dutch"
+    },
+    {
+        "word": "бобр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zeehond",
+        "type": "dutch"
+    },
+    {
+        "word": "тюлень",
+        "type": "ukrainian"
+    },
+    {
+        "word": "walrus",
+        "type": "dutch"
+    },
+    {
+        "word": "морж",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ijsbeer",
+        "type": "dutch"
+    },
+    {
+        "word": "білий ведмідь",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pinguïn",
+        "type": "dutch"
+    },
+    {
+        "word": "пінгвін",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dolfijn",
+        "type": "dutch"
+    },
+    {
+        "word": "дельфін",
+        "type": "ukrainian"
+    },
+    {
+        "word": "walvis",
+        "type": "dutch"
+    },
+    {
+        "word": "кит",
+        "type": "ukrainian"
+    },
+    {
+        "word": "haai",
+        "type": "dutch"
+    },
+    {
+        "word": "акула",
+        "type": "ukrainian"
+    },
+    {
+        "word": "octopus",
+        "type": "dutch"
+    },
+    {
+        "word": "восьминіг",
+        "type": "ukrainian"
+    },
+    {
+        "word": "inktvis",
+        "type": "dutch"
+    },
+    {
+        "word": "кальмар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kwal",
+        "type": "dutch"
+    },
+    {
+        "word": "медуза",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zeester",
+        "type": "dutch"
+    },
+    {
+        "word": "морська зірка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "krab",
+        "type": "dutch"
+    },
+    {
+        "word": "краб",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kreeft",
+        "type": "dutch"
+    },
+    {
+        "word": "омар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "garnaal",
+        "type": "dutch"
+    },
+    {
+        "word": "креветка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vogel",
+        "type": "dutch"
+    },
+    {
+        "word": "птах",
+        "type": "ukrainian"
+    },
+    {
+        "word": "arend",
+        "type": "dutch"
+    },
+    {
+        "word": "орел",
+        "type": "ukrainian"
+    },
+    {
+        "word": "valk",
+        "type": "dutch"
+    },
+    {
+        "word": "сокіл",
+        "type": "ukrainian"
+    },
+    {
+        "word": "uil",
+        "type": "dutch"
+    },
+    {
+        "word": "сова",
+        "type": "ukrainian"
+    },
+    {
+        "word": "raaf",
+        "type": "dutch"
+    },
+    {
+        "word": "ворон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kraai",
+        "type": "dutch"
+    },
+    {
+        "word": "ворона",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ekster",
+        "type": "dutch"
+    },
+    {
+        "word": "сорока",
+        "type": "ukrainian"
+    },
+    {
+        "word": "duif",
+        "type": "dutch"
+    },
+    {
+        "word": "голуб",
+        "type": "ukrainian"
+    },
+    {
+        "word": "mus",
+        "type": "dutch"
+    },
+    {
+        "word": "горобець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "meeuw",
+        "type": "dutch"
+    },
+    {
+        "word": "чайка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zwaan",
+        "type": "dutch"
+    },
+    {
+        "word": "лебідь",
+        "type": "ukrainian"
+    },
+    {
+        "word": "eend",
+        "type": "dutch"
+    },
+    {
+        "word": "качка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gans",
+        "type": "dutch"
+    },
+    {
+        "word": "гуска",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kalkoen",
+        "type": "dutch"
+    },
+    {
+        "word": "індик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "haan",
+        "type": "dutch"
+    },
+    {
+        "word": "півень",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hen",
+        "type": "dutch"
+    },
+    {
+        "word": "курка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kuiken",
+        "type": "dutch"
+    },
+    {
+        "word": "курча",
+        "type": "ukrainian"
+    },
+    {
+        "word": "papegaai",
+        "type": "dutch"
+    },
+    {
+        "word": "папуга",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kanarie",
+        "type": "dutch"
+    },
+    {
+        "word": "канарка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "struisvogel",
+        "type": "dutch"
+    },
+    {
+        "word": "страус",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pauw",
+        "type": "dutch"
+    },
+    {
+        "word": "павич",
+        "type": "ukrainian"
+    },
+    {
+        "word": "flamingo",
+        "type": "dutch"
+    },
+    {
+        "word": "фламінго",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pelikaan",
+        "type": "dutch"
+    },
+    {
+        "word": "пелікан",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kolibrie",
+        "type": "dutch"
+    },
+    {
+        "word": "колібрі",
+        "type": "ukrainian"
+    },
+    {
+        "word": "specht",
+        "type": "dutch"
+    },
+    {
+        "word": "дятел",
+        "type": "ukrainian"
+    },
+    {
+        "word": "nachtegaal",
+        "type": "dutch"
+    },
+    {
+        "word": "соловей",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lijster",
+        "type": "dutch"
+    },
+    {
+        "word": "дрізд",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zwaluw",
+        "type": "dutch"
+    },
+    {
+        "word": "ластівка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vleermuis",
+        "type": "dutch"
+    },
+    {
+        "word": "кажан",
+        "type": "ukrainian"
+    },
+    {
+        "word": "slang",
+        "type": "dutch"
+    },
+    {
+        "word": "змія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "adder",
+        "type": "dutch"
+    },
+    {
+        "word": "гадюка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "cobra",
+        "type": "dutch"
+    },
+    {
+        "word": "кобра",
+        "type": "ukrainian"
+    },
+    {
+        "word": "python",
+        "type": "dutch"
+    },
+    {
+        "word": "пітон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hagedis",
+        "type": "dutch"
+    },
+    {
+        "word": "ящірка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "krokodil",
+        "type": "dutch"
+    },
+    {
+        "word": "крокодил",
+        "type": "ukrainian"
+    },
+    {
+        "word": "alligator",
+        "type": "dutch"
+    },
+    {
+        "word": "алігатор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schildpad",
+        "type": "dutch"
+    },
+    {
+        "word": "черепаха",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kikker",
+        "type": "dutch"
+    },
+    {
+        "word": "жаба",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pad",
+        "type": "dutch"
+    },
+    {
+        "word": "ропуха",
+        "type": "ukrainian"
+    },
+    {
+        "word": "salamander",
+        "type": "dutch"
+    },
+    {
+        "word": "саламандра",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kameleon",
+        "type": "dutch"
+    },
+    {
+        "word": "хамелеон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "leguaan",
+        "type": "dutch"
+    },
+    {
+        "word": "ігуана",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vlieg",
+        "type": "dutch"
+    },
+    {
+        "word": "муха",
+        "type": "ukrainian"
+    },
+    {
+        "word": "mug",
+        "type": "dutch"
+    },
+    {
+        "word": "комар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bij",
+        "type": "dutch"
+    },
+    {
+        "word": "бджола",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wesp",
+        "type": "dutch"
+    },
+    {
+        "word": "оса",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hommel",
+        "type": "dutch"
+    },
+    {
+        "word": "джміль",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vlinder",
+        "type": "dutch"
+    },
+    {
+        "word": "метелик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "mot",
+        "type": "dutch"
+    },
+    {
+        "word": "міль",
+        "type": "ukrainian"
+    },
+    {
+        "word": "libelle",
+        "type": "dutch"
+    },
+    {
+        "word": "бабка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sprinkhaan",
+        "type": "dutch"
+    },
+    {
+        "word": "коник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "krekel",
+        "type": "dutch"
+    },
+    {
+        "word": "цвіркун",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kakkerlak",
+        "type": "dutch"
+    },
+    {
+        "word": "тарган",
+        "type": "ukrainian"
+    },
+    {
+        "word": "mier",
+        "type": "dutch"
+    },
+    {
+        "word": "мураха",
+        "type": "ukrainian"
+    },
+    {
+        "word": "termiet",
+        "type": "dutch"
+    },
+    {
+        "word": "терміт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "spin",
+        "type": "dutch"
+    },
+    {
+        "word": "павук",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schorpioen",
+        "type": "dutch"
+    },
+    {
+        "word": "скорпіон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kever",
+        "type": "dutch"
+    },
+    {
+        "word": "жук",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lieveheersbeestje",
+        "type": "dutch"
+    },
+    {
+        "word": "сонечко",
+        "type": "ukrainian"
+    },
+    {
+        "word": "worm",
+        "type": "dutch"
+    },
+    {
+        "word": "черв'як",
+        "type": "ukrainian"
+    },
+    {
+        "word": "slak",
+        "type": "dutch"
+    },
+    {
+        "word": "равлик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "naaktslak",
+        "type": "dutch"
+    },
+    {
+        "word": "слимак",
+        "type": "ukrainian"
+    },
+    {
+        "word": "appelтаart",
+        "type": "dutch"
+    },
+    {
+        "word": "яблучний пиріг",
+        "type": "ukrainian"
+    },
+    {
+        "word": "stroopwafel",
+        "type": "dutch"
+    },
+    {
+        "word": "сиропна вафля",
+        "type": "ukrainian"
+    },
+    {
+        "word": "poffertjes",
+        "type": "dutch"
+    },
+    {
+        "word": "пухкі млинці",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bitterballen",
+        "type": "dutch"
+    },
+    {
+        "word": "м'ясні кульки",
+        "type": "ukrainian"
+    },
+    {
+        "word": "haring",
+        "type": "dutch"
+    },
+    {
+        "word": "оселедець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kaas",
+        "type": "dutch"
+    },
+    {
+        "word": "сир",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pannenkoek",
+        "type": "dutch"
+    },
+    {
+        "word": "млинець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kroket",
+        "type": "dutch"
+    },
+    {
+        "word": "крокет",
+        "type": "ukrainian"
+    },
+    {
+        "word": "frikandel",
+        "type": "dutch"
+    },
+    {
+        "word": "ковбаска фрікандель",
+        "type": "ukrainian"
+    },
+    {
+        "word": "patat",
+        "type": "dutch"
+    },
+    {
+        "word": "картопля фрі",
+        "type": "ukrainian"
+    },
+    {
+        "word": "mayonaise",
+        "type": "dutch"
+    },
+    {
+        "word": "майонез",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ketchup",
+        "type": "dutch"
+    },
+    {
+        "word": "кетчуп",
+        "type": "ukrainian"
+    },
+    {
+        "word": "mosterd",
+        "type": "dutch"
+    },
+    {
+        "word": "гірчиця",
+        "type": "ukrainian"
+    },
+    {
+        "word": "azijn",
+        "type": "dutch"
+    },
+    {
+        "word": "оцет",
+        "type": "ukrainian"
+    },
+    {
+        "word": "olijfolie",
+        "type": "dutch"
+    },
+    {
+        "word": "оливкова олія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koffie",
+        "type": "dutch"
+    },
+    {
+        "word": "кава",
+        "type": "ukrainian"
+    },
+    {
+        "word": "thee",
+        "type": "dutch"
+    },
+    {
+        "word": "чай",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sap",
+        "type": "dutch"
+    },
+    {
+        "word": "сік",
+        "type": "ukrainian"
+    },
+    {
+        "word": "water",
+        "type": "dutch"
+    },
+    {
+        "word": "вода",
+        "type": "ukrainian"
+    },
+    {
+        "word": "cola",
+        "type": "dutch"
+    },
+    {
+        "word": "кола",
+        "type": "ukrainian"
+    },
+    {
+        "word": "limonade",
+        "type": "dutch"
+    },
+    {
+        "word": "лимонад",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wijn",
+        "type": "dutch"
+    },
+    {
+        "word": "вино",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bier",
+        "type": "dutch"
+    },
+    {
+        "word": "пиво",
+        "type": "ukrainian"
+    },
+    {
+        "word": "champagne",
+        "type": "dutch"
+    },
+    {
+        "word": "шампанське",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wodka",
+        "type": "dutch"
+    },
+    {
+        "word": "горілка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "whisky",
+        "type": "dutch"
+    },
+    {
+        "word": "віскі",
+        "type": "ukrainian"
+    },
+    {
+        "word": "cognac",
+        "type": "dutch"
+    },
+    {
+        "word": "коньяк",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rum",
+        "type": "dutch"
+    },
+    {
+        "word": "ром",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tequila",
+        "type": "dutch"
+    },
+    {
+        "word": "текіла",
+        "type": "ukrainian"
+    },
+    {
+        "word": "cocktail",
+        "type": "dutch"
+    },
+    {
+        "word": "коктейль",
+        "type": "ukrainian"
+    }
+]

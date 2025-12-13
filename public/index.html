@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codenames Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Login / Room Selection Screen -->
+        <div id="login-screen" class="screen active">
+            <div class="login-card glass-panel">
+                <h1>CODENAMES</h1>
+                <div class="input-group">
+                    <label data-i18n="name">Ваше Ім'я</label>
+                    <input type="text" id="username-input" placeholder="Enter your name">
+                </div>
+                <div class="input-group">
+                    <label data-i18n="room">Код Кімнати</label>
+                    <input type="text" id="room-input" placeholder="Empty for random">
+                </div>
+                <div class="button-group">
+                    <button id="create-btn" class="btn primary">Створити</button>
+                    <button id="join-btn" class="btn secondary">Приєднатися</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Game Screen -->
+        <div id="game-screen" class="screen game-layout">
+
+            <!-- Left Panel: Blue Team -->
+            <aside class="team-panel blue-panel">
+                <div class="panel-header">
+                    <h2>BLUE</h2>
+                    <div class="score-display" id="score-blue">9</div>
+                </div>
+                <div class="timer-container">
+                    <div class="timer-display" id="timer-blue">-</div>
+                    <div class="phase-display" id="clue-phase-blue"></div>
+                </div>
+                <div class="team-controls">
+                    <button class="btn join-btn" onclick="joinTeam('blue')">Приєднатися</button>
+                    <button class="btn spymaster-btn" onclick="becomeSpymaster('blue')">Капітан</button>
+                </div>
+
+                <!-- Clues History -->
+                <div class="clue-section glass-panel" id="clue-section-blue">
+                    <div class="clue-header">
+                        <span class="clue-title" data-i18n="cluesTitle">Історія Підказок</span>
+                    </div>
+                    <div class="clue-history-list" id="clue-list-blue">
+                        <!-- Clue items -->
+                    </div>
+
+                    <div class="clue-input-area">
+                        <input type="text" class="clue-input" id="clue-input-blue" placeholder="Нова підказка...">
+                        <button class="btn primary small" id="clue-submit-blue" data-i18n="submit">OK</button>
+                    </div>
+                </div>
+
+                <div class="players-list" id="list-blue"></div>
+            </aside>
+
+            <!-- Center: Game Board -->
+            <main class="game-center">
+                <!-- Spectators (Absolute Top Right) -->
+                <div class="spectators-container" id="spectators-list"></div>
+
+                <!-- Admin Controls (Top Center) -->
+                <div class="admin-controls hidden" id="admin-controls">
+                    <button id="start-game-btn" class="btn primary">Start</button>
+                    <button id="pause-game-btn" class="btn warning">Pause</button>
+                    <button id="end-turn-btn" class="btn danger hidden">End Turn</button>
+                </div>
+
+                <div id="game-grid" class="grid-5x5">
+                    <!-- Cards injected here -->
+                </div>
+
+                <div class="spymaster-controls hidden" id="spymaster-controls">
+                    <button id="spymaster-toggle" class="btn warning">👁️ Spymaster View</button>
+                </div>
+            </main>
+
+            <!-- Right Panel: Red Team -->
+            <aside class="team-panel red-panel">
+                <div class="panel-header">
+                    <h2>RED</h2>
+                    <div class="score-display" id="score-red">8</div>
+                </div>
+                <div class="timer-container">
+                    <div class="timer-display" id="timer-red">-</div>
+                    <div class="phase-display" id="clue-phase-red"></div>
+                </div>
+                <div class="team-controls">
+                    <button class="btn join-btn" onclick="joinTeam('red')">Приєднатися</button>
+                    <button class="btn spymaster-btn" onclick="becomeSpymaster('red')">Капітан</button>
+                </div>
+
+                <!-- Clues History -->
+                <div class="clue-section glass-panel" id="clue-section-red">
+                    <div class="clue-header">
+                        <span class="clue-title" data-i18n="cluesTitle">Історія Підказок</span>
+                    </div>
+                    <div class="clue-history-list" id="clue-list-red"></div>
+
+                    <div class="clue-input-area">
+                        <input type="text" class="clue-input" id="clue-input-red" placeholder="Нова підказка...">
+                        <button class="btn primary small" id="clue-submit-red" data-i18n="submit">OK</button>
+                    </div>
+                </div>
+
+                <div class="players-list" id="list-red"></div>
+            </aside>
+
+            <!-- Settings Button (Bottom Right) -->
+            <button id="settings-btn" class="icon-btn settings-fixed">⚙️</button>
+        </div>
+
+        <!-- Settings Modal -->
+        <div id="settings-modal" class="modal hidden">
+            <div class="modal-content glass-panel">
+                <h2>Налаштування</h2>
+
+                <div class="setting-item">
+                    <label>Мова Інтерфейсу</label>
+                    <div class="toggle-group">
+                        <button class="toggle-btn" data-lang="dutch">Dutch</button>
+                        <button class="toggle-btn active" data-lang="ukrainian">Ukrainian</button>
+                    </div>
+                </div>
+
+                <div class="setting-item">
+                    <label>Мова Слів</label>
+                    <div class="toggle-group">
+                        <button class="toggle-btn active" onclick="setGameLanguage('dutch')">Dutch</button>
+                        <button class="toggle-btn" onclick="setGameLanguage('ukrainian')">Ukrainian</button>
+                    </div>
+                </div>
+
+                <div class="setting-item">
+                    <label>Traitor Mode</label>
+                    <label class="switch">
+                        <input type="checkbox" id="traitor-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+                <div class="setting-item">
+                    <button id="reset-game-btn" class="btn danger full-width">Нова гра</button>
+                </div>
+
+                <button id="close-settings" class="btn secondary full-width">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>

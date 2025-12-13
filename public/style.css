@@ -1,0 +1,757 @@
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+    --blue-team: #4A9EFF;
+    --red-team: #FF5757;
+    /* Tile colors (match in-game board look) */
+    --neutral-color: #B8AAA0;
+    /* neutral gray for unrevealed/neutral cards */
+    --black-card: #2B2B2B;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --card-bg: #E0D6CC;
+    --card-text: #333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(circle at center, #2a2a2a 0%, #111 100%);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.screen {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.screen.active {
+    display: flex;
+}
+
+/* Glassmorphism */
+.glass-panel {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Screen */
+#login-screen {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-card {
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-card h1 {
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, var(--blue-team), var(--red-team));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 1rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.1s;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn.primary {
+    background: var(--blue-team);
+    color: white;
+}
+
+.btn.secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.btn.danger {
+    background: var(--red-team);
+    color: white;
+}
+
+.btn.warning {
+    background: #f1c40f;
+    color: #333;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/* Game Layout - 3 Columns */
+.game-layout {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.team-panel {
+    width: 250px;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    border-right: 1px solid var(--glass-border);
+    gap: 1rem;
+}
+
+.red-panel {
+    border-left: 1px solid var(--glass-border);
+    border-right: none;
+}
+
+.panel-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.panel-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.blue-panel .panel-header h2 {
+    color: var(--blue-team);
+}
+
+.red-panel .panel-header h2 {
+    color: var(--red-team);
+}
+
+.score-display {
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+.timer-display {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #888;
+    font-variant-numeric: tabular-nums;
+}
+
+.team-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.join-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.blue-panel .join-btn:hover {
+    background: rgba(74, 158, 255, 0.2);
+    border-color: var(--blue-team);
+}
+
+.red-panel .join-btn:hover {
+    background: rgba(255, 87, 87, 0.2);
+    border-color: var(--red-team);
+}
+
+.spymaster-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.players-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Clue UI */
+.clue-section {
+    padding: 0.75rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* max-height removed to allow flex grow if needed, or controlled by parent */
+    flex: 1;
+    min-height: 0;
+}
+
+.clue-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.clue-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+.clue-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #888;
+    font-size: 0.8rem;
+}
+
+.clue-phase {
+    padding: 2px 6px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #bbb;
+}
+
+.clue-count {
+    font-variant-numeric: tabular-nums;
+}
+
+.clue-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 160px;
+    overflow-y: auto;
+}
+
+.clue-chip {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 8px 10px;
+    color: #eee;
+    font-size: 0.9rem;
+    word-break: break-word;
+}
+
+.clue-input {
+    width: 100%;
+    resize: none;
+    min-height: 38px;
+    /* max-height: 140px; removed in favor of simpler input */
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    outline: none;
+}
+
+.clue-input:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.clue-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.clue-finish {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+}
+
+.player-item {
+    padding: 8px;
+    margin-bottom: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.player-item.spymaster::before {
+    content: '🕵️';
+}
+
+.player-item.host::after {
+    content: '👑';
+    margin-left: auto;
+    font-size: 0.8rem;
+}
+
+/* Center Game Area */
+.game-center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+}
+
+.spectators-container {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    max-width: 300px;
+    justify-content: flex-end;
+}
+
+.spectator-tag {
+    font-size: 0.8rem;
+    color: #888;
+    padding: 4px 8px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.admin-controls {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    z-index: 10;
+}
+
+.spymaster-controls {
+    margin-top: 1rem;
+}
+
+.grid-5x5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    width: 100%;
+    max-width: 900px;
+    aspect-ratio: 5/4;
+}
+
+.card {
+    /* Default tile (neutral gray) */
+    background: var(--neutral-color);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    padding: 5px;
+    position: relative;
+    color: #1f1f1f;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.card-word {
+    /* Inherit so revealed/team colors can drive the text color too */
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    text-align: center;
+    word-break: break-word;
+}
+
+/* Card States */
+.card.revealed.blue {
+    background: var(--blue-team);
+    color: #1f1f1f;
+}
+
+.card.revealed.red {
+    background: var(--red-team);
+    color: #1f1f1f;
+}
+
+.card.revealed.neutral {
+    background: var(--neutral-color);
+    color: #1f1f1f;
+    opacity: 1;
+}
+
+.card.revealed.black {
+    background: var(--black-card);
+    color: white;
+    border: none;
+}
+
+/* Spymaster View */
+.card.spymaster-view::after {
+    display: none;
+}
+
+.card.spymaster-view.blue {
+    background: var(--blue-team);
+    color: #1f1f1f;
+}
+
+.card.spymaster-view.red {
+    background: var(--red-team);
+    color: #1f1f1f;
+}
+
+.card.spymaster-view.neutral {
+    background: var(--neutral-color);
+    color: #1f1f1f;
+}
+
+.card.spymaster-view.black {
+    background: var(--black-card);
+    color: white;
+}
+
+/* Settings Button */
+.settings-fixed {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s;
+    z-index: 100;
+}
+
+.settings-fixed:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    width: 90%;
+    max-width: 500px;
+    padding: 2rem;
+}
+
+.setting-item {
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-group {
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.toggle-btn {
+    padding: 8px 16px;
+    border: none;
+    background: transparent;
+    color: #888;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.toggle-btn.active {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Switch Toggle */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: var(--blue-team);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--blue-team);
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* New Timer & Phase Styles */
+.timer-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.timer-display {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #888;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.phase-display {
+    font-size: 0.9rem;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 1.2em;
+}
+
+/* Clue History List */
+.clue-history-list {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 1rem;
+    padding-right: 4px;
+    min-height: 100px;
+}
+
+.clue-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.95rem;
+    color: #eee;
+}
+
+.clue-input-area {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.icon-btn-small {
+    background: transparent;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.icon-btn-small:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.active-turn {
+    background: rgba(255, 255, 255, 0.08);
+    /* Highlight active panel slightly */
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+    .game-layout {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .team-panel {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.5rem;
+        gap: 1rem;
+        border-right: none;
+        border-bottom: 1px solid var(--glass-border);
+    }
+
+    .panel-header {
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .panel-header h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .score-display {
+        font-size: 1.5rem;
+    }
+
+    .timer-display {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .team-controls {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .players-list {
+        display: none;
+    }
+
+    .game-center {
+        padding: 1rem;
+    }
+
+    .admin-controls {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .spectators-container {
+        position: relative;
+        top: 0;
+        right: 0;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .settings-fixed {
+        bottom: 1rem;
+        right: 1rem;
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,1138 @@
+[
+    {
+        "word": "lopen",
+        "type": "dutch"
+    },
+    {
+        "word": "йти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rennen",
+        "type": "dutch"
+    },
+    {
+        "word": "бігти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "springen",
+        "type": "dutch"
+    },
+    {
+        "word": "стрибати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vliegen",
+        "type": "dutch"
+    },
+    {
+        "word": "летіти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zwemmen",
+        "type": "dutch"
+    },
+    {
+        "word": "плавати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "duiken",
+        "type": "dutch"
+    },
+    {
+        "word": "пірнати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "klimmen",
+        "type": "dutch"
+    },
+    {
+        "word": "лізти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vallen",
+        "type": "dutch"
+    },
+    {
+        "word": "падати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "staan",
+        "type": "dutch"
+    },
+    {
+        "word": "стояти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zitten",
+        "type": "dutch"
+    },
+    {
+        "word": "сидіти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "liggen",
+        "type": "dutch"
+    },
+    {
+        "word": "лежати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "slapen",
+        "type": "dutch"
+    },
+    {
+        "word": "спати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dromen",
+        "type": "dutch"
+    },
+    {
+        "word": "мріяти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "denken",
+        "type": "dutch"
+    },
+    {
+        "word": "думати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "weten",
+        "type": "dutch"
+    },
+    {
+        "word": "знати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "leren",
+        "type": "dutch"
+    },
+    {
+        "word": "вчитися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "begrijpen",
+        "type": "dutch"
+    },
+    {
+        "word": "розуміти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vergeten",
+        "type": "dutch"
+    },
+    {
+        "word": "забувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "herinneren",
+        "type": "dutch"
+    },
+    {
+        "word": "пам'ятати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zien",
+        "type": "dutch"
+    },
+    {
+        "word": "бачити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kijken",
+        "type": "dutch"
+    },
+    {
+        "word": "дивитись",
+        "type": "ukrainian"
+    },
+    {
+        "word": "horen",
+        "type": "dutch"
+    },
+    {
+        "word": "чути",
+        "type": "ukrainian"
+    },
+    {
+        "word": "luisteren",
+        "type": "dutch"
+    },
+    {
+        "word": "слухати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ruiken",
+        "type": "dutch"
+    },
+    {
+        "word": "нюхати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "proeven",
+        "type": "dutch"
+    },
+    {
+        "word": "куштувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "voelen",
+        "type": "dutch"
+    },
+    {
+        "word": "відчувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "aanraken",
+        "type": "dutch"
+    },
+    {
+        "word": "торкатися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "praten",
+        "type": "dutch"
+    },
+    {
+        "word": "говорити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schreeuwen",
+        "type": "dutch"
+    },
+    {
+        "word": "кричати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "fluisteren",
+        "type": "dutch"
+    },
+    {
+        "word": "шепотіти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zingen",
+        "type": "dutch"
+    },
+    {
+        "word": "співати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lachen",
+        "type": "dutch"
+    },
+    {
+        "word": "сміятися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "huilen",
+        "type": "dutch"
+    },
+    {
+        "word": "плакати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "glimlachen",
+        "type": "dutch"
+    },
+    {
+        "word": "посміхатися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kussen",
+        "type": "dutch"
+    },
+    {
+        "word": "цілувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "omhelzen",
+        "type": "dutch"
+    },
+    {
+        "word": "обіймати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "houden",
+        "type": "dutch"
+    },
+    {
+        "word": "тримати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "grijpen",
+        "type": "dutch"
+    },
+    {
+        "word": "хапати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gooien",
+        "type": "dutch"
+    },
+    {
+        "word": "кидати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vangen",
+        "type": "dutch"
+    },
+    {
+        "word": "ловити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "duwen",
+        "type": "dutch"
+    },
+    {
+        "word": "штовхати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "trekken",
+        "type": "dutch"
+    },
+    {
+        "word": "тягнути",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tillen",
+        "type": "dutch"
+    },
+    {
+        "word": "піднімати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dragen",
+        "type": "dutch"
+    },
+    {
+        "word": "нести",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bouwen",
+        "type": "dutch"
+    },
+    {
+        "word": "будувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "maken",
+        "type": "dutch"
+    },
+    {
+        "word": "робити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "breken",
+        "type": "dutch"
+    },
+    {
+        "word": "ламати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "repareren",
+        "type": "dutch"
+    },
+    {
+        "word": "ремонтувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "openen",
+        "type": "dutch"
+    },
+    {
+        "word": "відкривати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sluiten",
+        "type": "dutch"
+    },
+    {
+        "word": "закривати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "beginnen",
+        "type": "dutch"
+    },
+    {
+        "word": "починати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "eindigen",
+        "type": "dutch"
+    },
+    {
+        "word": "закінчувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "stoppen",
+        "type": "dutch"
+    },
+    {
+        "word": "зупинятися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "doorgaan",
+        "type": "dutch"
+    },
+    {
+        "word": "продовжувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wachten",
+        "type": "dutch"
+    },
+    {
+        "word": "чекати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zoeken",
+        "type": "dutch"
+    },
+    {
+        "word": "шукати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vinden",
+        "type": "dutch"
+    },
+    {
+        "word": "знаходити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "verliezen",
+        "type": "dutch"
+    },
+    {
+        "word": "втрачати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "winnen",
+        "type": "dutch"
+    },
+    {
+        "word": "вигравати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "spelen",
+        "type": "dutch"
+    },
+    {
+        "word": "грати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "werken",
+        "type": "dutch"
+    },
+    {
+        "word": "працювати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rusten",
+        "type": "dutch"
+    },
+    {
+        "word": "відпочивати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "eten",
+        "type": "dutch"
+    },
+    {
+        "word": "їсти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "drinken",
+        "type": "dutch"
+    },
+    {
+        "word": "пити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koken",
+        "type": "dutch"
+    },
+    {
+        "word": "готувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bakken",
+        "type": "dutch"
+    },
+    {
+        "word": "пекти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "snijden",
+        "type": "dutch"
+    },
+    {
+        "word": "різати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wassen",
+        "type": "dutch"
+    },
+    {
+        "word": "мити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schoonmaken",
+        "type": "dutch"
+    },
+    {
+        "word": "прибирати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vegen",
+        "type": "dutch"
+    },
+    {
+        "word": "підмітати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "drogen",
+        "type": "dutch"
+    },
+    {
+        "word": "сушити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vouwen",
+        "type": "dutch"
+    },
+    {
+        "word": "складати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "strijken",
+        "type": "dutch"
+    },
+    {
+        "word": "прасувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "naaien",
+        "type": "dutch"
+    },
+    {
+        "word": "шити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "breien",
+        "type": "dutch"
+    },
+    {
+        "word": "в'язати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tekenen",
+        "type": "dutch"
+    },
+    {
+        "word": "малювати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schilderen",
+        "type": "dutch"
+    },
+    {
+        "word": "писати картину",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schrijven",
+        "type": "dutch"
+    },
+    {
+        "word": "писати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lezen",
+        "type": "dutch"
+    },
+    {
+        "word": "читати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tellen",
+        "type": "dutch"
+    },
+    {
+        "word": "рахувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rekenen",
+        "type": "dutch"
+    },
+    {
+        "word": "обчислювати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "meten",
+        "type": "dutch"
+    },
+    {
+        "word": "вимірювати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wegen",
+        "type": "dutch"
+    },
+    {
+        "word": "зважувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "besturen",
+        "type": "dutch"
+    },
+    {
+        "word": "керувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rijden",
+        "type": "dutch"
+    },
+    {
+        "word": "їздити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "parkeren",
+        "type": "dutch"
+    },
+    {
+        "word": "паркувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "reizen",
+        "type": "dutch"
+    },
+    {
+        "word": "подорожувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vertrekken",
+        "type": "dutch"
+    },
+    {
+        "word": "від'їжджати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "aankomen",
+        "type": "dutch"
+    },
+    {
+        "word": "прибувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "blijven",
+        "type": "dutch"
+    },
+    {
+        "word": "залишатися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gaan",
+        "type": "dutch"
+    },
+    {
+        "word": "йти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "komen",
+        "type": "dutch"
+    },
+    {
+        "word": "приходити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "brengen",
+        "type": "dutch"
+    },
+    {
+        "word": "приносити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "halen",
+        "type": "dutch"
+    },
+    {
+        "word": "приносити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sturen",
+        "type": "dutch"
+    },
+    {
+        "word": "відправляти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ontvangen",
+        "type": "dutch"
+    },
+    {
+        "word": "отримувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "geven",
+        "type": "dutch"
+    },
+    {
+        "word": "давати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "nemen",
+        "type": "dutch"
+    },
+    {
+        "word": "брати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kopen",
+        "type": "dutch"
+    },
+    {
+        "word": "купувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "verkopen",
+        "type": "dutch"
+    },
+    {
+        "word": "продавати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "betalen",
+        "type": "dutch"
+    },
+    {
+        "word": "платити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sparen",
+        "type": "dutch"
+    },
+    {
+        "word": "заощаджувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lenen",
+        "type": "dutch"
+    },
+    {
+        "word": "позичати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "verdienen",
+        "type": "dutch"
+    },
+    {
+        "word": "заробляти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "uitgeven",
+        "type": "dutch"
+    },
+    {
+        "word": "витрачати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "investeren",
+        "type": "dutch"
+    },
+    {
+        "word": "інвестувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "groeien",
+        "type": "dutch"
+    },
+    {
+        "word": "рости",
+        "type": "ukrainian"
+    },
+    {
+        "word": "krimpen",
+        "type": "dutch"
+    },
+    {
+        "word": "зменшуватися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "veranderen",
+        "type": "dutch"
+    },
+    {
+        "word": "змінюватися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "blijven",
+        "type": "dutch"
+    },
+    {
+        "word": "залишатися незмінним",
+        "type": "ukrainian"
+    },
+    {
+        "word": "worden",
+        "type": "dutch"
+    },
+    {
+        "word": "ставати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zijn",
+        "type": "dutch"
+    },
+    {
+        "word": "бути",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hebben",
+        "type": "dutch"
+    },
+    {
+        "word": "мати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kunnen",
+        "type": "dutch"
+    },
+    {
+        "word": "могти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "moeten",
+        "type": "dutch"
+    },
+    {
+        "word": "мусити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "willen",
+        "type": "dutch"
+    },
+    {
+        "word": "хотіти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "mogen",
+        "type": "dutch"
+    },
+    {
+        "word": "сміти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hopen",
+        "type": "dutch"
+    },
+    {
+        "word": "сподіватися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vrezen",
+        "type": "dutch"
+    },
+    {
+        "word": "боятися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "haten",
+        "type": "dutch"
+    },
+    {
+        "word": "ненавидіти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "liefhebben",
+        "type": "dutch"
+    },
+    {
+        "word": "любити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "waarderen",
+        "type": "dutch"
+    },
+    {
+        "word": "цінувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "respecteren",
+        "type": "dutch"
+    },
+    {
+        "word": "поважати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vertrouwen",
+        "type": "dutch"
+    },
+    {
+        "word": "довіряти",
+        "type": "ukrainian"
+    },
+    {
+        "word": "twijfelen",
+        "type": "dutch"
+    },
+    {
+        "word": "сумніватися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "geloven",
+        "type": "dutch"
+    },
+    {
+        "word": "вірити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bewijzen",
+        "type": "dutch"
+    },
+    {
+        "word": "доводити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "onderzoeken",
+        "type": "dutch"
+    },
+    {
+        "word": "досліджувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ontdekken",
+        "type": "dutch"
+    },
+    {
+        "word": "відкривати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "uitvinden",
+        "type": "dutch"
+    },
+    {
+        "word": "винаходити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "creëren",
+        "type": "dutch"
+    },
+    {
+        "word": "створювати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vernietigen",
+        "type": "dutch"
+    },
+    {
+        "word": "знищувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "beschermen",
+        "type": "dutch"
+    },
+    {
+        "word": "захищати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "aanvallen",
+        "type": "dutch"
+    },
+    {
+        "word": "нападати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "verdedigen",
+        "type": "dutch"
+    },
+    {
+        "word": "оборонятися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vechten",
+        "type": "dutch"
+    },
+    {
+        "word": "боротися",
+        "type": "ukrainian"
+    },
+    {
+        "word": "overwinnen",
+        "type": "dutch"
+    },
+    {
+        "word": "перемагати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "verliezen",
+        "type": "dutch"
+    },
+    {
+        "word": "програвати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "helpen",
+        "type": "dutch"
+    },
+    {
+        "word": "допомагати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "redden",
+        "type": "dutch"
+    },
+    {
+        "word": "рятувати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schaden",
+        "type": "dutch"
+    },
+    {
+        "word": "шкодити",
+        "type": "ukrainian"
+    },
+    {
+        "word": "genezen",
+        "type": "dutch"
+    },
+    {
+        "word": "лікувати",
+        "type": "ukrainian"
+    }
+]

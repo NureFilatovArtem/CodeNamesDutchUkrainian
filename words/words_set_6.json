@@ -1,0 +1,1226 @@
+[
+    {
+        "word": "computer",
+        "type": "dutch"
+    },
+    {
+        "word": "комп'ютер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "laptop",
+        "type": "dutch"
+    },
+    {
+        "word": "ноутбук",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tablet",
+        "type": "dutch"
+    },
+    {
+        "word": "планшет",
+        "type": "ukrainian"
+    },
+    {
+        "word": "telefoon",
+        "type": "dutch"
+    },
+    {
+        "word": "телефон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "smartphone",
+        "type": "dutch"
+    },
+    {
+        "word": "смартфон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "camera",
+        "type": "dutch"
+    },
+    {
+        "word": "камера",
+        "type": "ukrainian"
+    },
+    {
+        "word": "televisie",
+        "type": "dutch"
+    },
+    {
+        "word": "телевізор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "radio",
+        "type": "dutch"
+    },
+    {
+        "word": "радіо",
+        "type": "ukrainian"
+    },
+    {
+        "word": "internet",
+        "type": "dutch"
+    },
+    {
+        "word": "інтернет",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wifi",
+        "type": "dutch"
+    },
+    {
+        "word": "вай-фай",
+        "type": "ukrainian"
+    },
+    {
+        "word": "email",
+        "type": "dutch"
+    },
+    {
+        "word": "електронна пошта",
+        "type": "ukrainian"
+    },
+    {
+        "word": "website",
+        "type": "dutch"
+    },
+    {
+        "word": "веб-сайт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "app",
+        "type": "dutch"
+    },
+    {
+        "word": "додаток",
+        "type": "ukrainian"
+    },
+    {
+        "word": "game",
+        "type": "dutch"
+    },
+    {
+        "word": "гра",
+        "type": "ukrainian"
+    },
+    {
+        "word": "video",
+        "type": "dutch"
+    },
+    {
+        "word": "відео",
+        "type": "ukrainian"
+    },
+    {
+        "word": "muziek",
+        "type": "dutch"
+    },
+    {
+        "word": "музика",
+        "type": "ukrainian"
+    },
+    {
+        "word": "film",
+        "type": "dutch"
+    },
+    {
+        "word": "фільм",
+        "type": "ukrainian"
+    },
+    {
+        "word": "nieuws",
+        "type": "dutch"
+    },
+    {
+        "word": "новини",
+        "type": "ukrainian"
+    },
+    {
+        "word": "robot",
+        "type": "dutch"
+    },
+    {
+        "word": "робот",
+        "type": "ukrainian"
+    },
+    {
+        "word": "machine",
+        "type": "dutch"
+    },
+    {
+        "word": "машина",
+        "type": "ukrainian"
+    },
+    {
+        "word": "motor",
+        "type": "dutch"
+    },
+    {
+        "word": "двигун",
+        "type": "ukrainian"
+    },
+    {
+        "word": "batterij",
+        "type": "dutch"
+    },
+    {
+        "word": "батарея",
+        "type": "ukrainian"
+    },
+    {
+        "word": "oplader",
+        "type": "dutch"
+    },
+    {
+        "word": "зарядний пристрій",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kabel",
+        "type": "dutch"
+    },
+    {
+        "word": "кабель",
+        "type": "ukrainian"
+    },
+    {
+        "word": "scherm",
+        "type": "dutch"
+    },
+    {
+        "word": "екран",
+        "type": "ukrainian"
+    },
+    {
+        "word": "toetsenbord",
+        "type": "dutch"
+    },
+    {
+        "word": "клавіатура",
+        "type": "ukrainian"
+    },
+    {
+        "word": "muis",
+        "type": "dutch"
+    },
+    {
+        "word": "мишка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "printer",
+        "type": "dutch"
+    },
+    {
+        "word": "принтер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "auto",
+        "type": "dutch"
+    },
+    {
+        "word": "автомобіль",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bus",
+        "type": "dutch"
+    },
+    {
+        "word": "автобус",
+        "type": "ukrainian"
+    },
+    {
+        "word": "trein",
+        "type": "dutch"
+    },
+    {
+        "word": "поїзд",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tram",
+        "type": "dutch"
+    },
+    {
+        "word": "трамвай",
+        "type": "ukrainian"
+    },
+    {
+        "word": "metro",
+        "type": "dutch"
+    },
+    {
+        "word": "метро",
+        "type": "ukrainian"
+    },
+    {
+        "word": "fiets",
+        "type": "dutch"
+    },
+    {
+        "word": "велосипед",
+        "type": "ukrainian"
+    },
+    {
+        "word": "boot",
+        "type": "dutch"
+    },
+    {
+        "word": "човен",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schip",
+        "type": "dutch"
+    },
+    {
+        "word": "корабель",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vliegtuig",
+        "type": "dutch"
+    },
+    {
+        "word": "літак",
+        "type": "ukrainian"
+    },
+    {
+        "word": "helikopter",
+        "type": "dutch"
+    },
+    {
+        "word": "вертоліт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "raket",
+        "type": "dutch"
+    },
+    {
+        "word": "ракета",
+        "type": "ukrainian"
+    },
+    {
+        "word": "satelliet",
+        "type": "dutch"
+    },
+    {
+        "word": "супутник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "telescoop",
+        "type": "dutch"
+    },
+    {
+        "word": "телескоп",
+        "type": "ukrainian"
+    },
+    {
+        "word": "microscoop",
+        "type": "dutch"
+    },
+    {
+        "word": "мікроскоп",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bril",
+        "type": "dutch"
+    },
+    {
+        "word": "окуляри",
+        "type": "ukrainian"
+    },
+    {
+        "word": "horloge",
+        "type": "dutch"
+    },
+    {
+        "word": "годинник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "klok",
+        "type": "dutch"
+    },
+    {
+        "word": "годинник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wekker",
+        "type": "dutch"
+    },
+    {
+        "word": "будильник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kompas",
+        "type": "dutch"
+    },
+    {
+        "word": "компас",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kaart",
+        "type": "dutch"
+    },
+    {
+        "word": "карта",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sleutel",
+        "type": "dutch"
+    },
+    {
+        "word": "ключ",
+        "type": "ukrainian"
+    },
+    {
+        "word": "slot",
+        "type": "dutch"
+    },
+    {
+        "word": "замок",
+        "type": "ukrainian"
+    },
+    {
+        "word": "geld",
+        "type": "dutch"
+    },
+    {
+        "word": "гроші",
+        "type": "ukrainian"
+    },
+    {
+        "word": "munt",
+        "type": "dutch"
+    },
+    {
+        "word": "монета",
+        "type": "ukrainian"
+    },
+    {
+        "word": "biljet",
+        "type": "dutch"
+    },
+    {
+        "word": "банкнота",
+        "type": "ukrainian"
+    },
+    {
+        "word": "portemonnee",
+        "type": "dutch"
+    },
+    {
+        "word": "гаманець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tas",
+        "type": "dutch"
+    },
+    {
+        "word": "сумка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koffer",
+        "type": "dutch"
+    },
+    {
+        "word": "валіза",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rugzak",
+        "type": "dutch"
+    },
+    {
+        "word": "рюкзак",
+        "type": "ukrainian"
+    },
+    {
+        "word": "paraplu",
+        "type": "dutch"
+    },
+    {
+        "word": "парасолька",
+        "type": "ukrainian"
+    },
+    {
+        "word": "jas",
+        "type": "dutch"
+    },
+    {
+        "word": "куртка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "broek",
+        "type": "dutch"
+    },
+    {
+        "word": "штани",
+        "type": "ukrainian"
+    },
+    {
+        "word": "shirt",
+        "type": "dutch"
+    },
+    {
+        "word": "сорочка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "jurk",
+        "type": "dutch"
+    },
+    {
+        "word": "сукня",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rok",
+        "type": "dutch"
+    },
+    {
+        "word": "спідниця",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schoen",
+        "type": "dutch"
+    },
+    {
+        "word": "черевик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sok",
+        "type": "dutch"
+    },
+    {
+        "word": "шкарпетка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hoed",
+        "type": "dutch"
+    },
+    {
+        "word": "капелюх",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pet",
+        "type": "dutch"
+    },
+    {
+        "word": "кепка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "handschoen",
+        "type": "dutch"
+    },
+    {
+        "word": "рукавиця",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sjaal",
+        "type": "dutch"
+    },
+    {
+        "word": "шарф",
+        "type": "ukrainian"
+    },
+    {
+        "word": "riem",
+        "type": "dutch"
+    },
+    {
+        "word": "ремінь",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ring",
+        "type": "dutch"
+    },
+    {
+        "word": "кільце",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ketting",
+        "type": "dutch"
+    },
+    {
+        "word": "ланцюжок",
+        "type": "ukrainian"
+    },
+    {
+        "word": "oorbel",
+        "type": "dutch"
+    },
+    {
+        "word": "сережка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "armband",
+        "type": "dutch"
+    },
+    {
+        "word": "браслет",
+        "type": "ukrainian"
+    },
+    {
+        "word": "make-up",
+        "type": "dutch"
+    },
+    {
+        "word": "макіяж",
+        "type": "ukrainian"
+    },
+    {
+        "word": "parfum",
+        "type": "dutch"
+    },
+    {
+        "word": "парфуми",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zeep",
+        "type": "dutch"
+    },
+    {
+        "word": "мило",
+        "type": "ukrainian"
+    },
+    {
+        "word": "shampoo",
+        "type": "dutch"
+    },
+    {
+        "word": "шампунь",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tandpasta",
+        "type": "dutch"
+    },
+    {
+        "word": "зубна паста",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tandenborstel",
+        "type": "dutch"
+    },
+    {
+        "word": "зубна щітка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "handdoek",
+        "type": "dutch"
+    },
+    {
+        "word": "рушник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bed",
+        "type": "dutch"
+    },
+    {
+        "word": "ліжко",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kussen",
+        "type": "dutch"
+    },
+    {
+        "word": "подушка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "deken",
+        "type": "dutch"
+    },
+    {
+        "word": "ковдра",
+        "type": "ukrainian"
+    },
+    {
+        "word": "stoel",
+        "type": "dutch"
+    },
+    {
+        "word": "стілець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tafel",
+        "type": "dutch"
+    },
+    {
+        "word": "стіл",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kast",
+        "type": "dutch"
+    },
+    {
+        "word": "шафа",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bank",
+        "type": "dutch"
+    },
+    {
+        "word": "диван",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tapijt",
+        "type": "dutch"
+    },
+    {
+        "word": "килим",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gordijn",
+        "type": "dutch"
+    },
+    {
+        "word": "штора",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vaas",
+        "type": "dutch"
+    },
+    {
+        "word": "ваза",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schilderij",
+        "type": "dutch"
+    },
+    {
+        "word": "картина",
+        "type": "ukrainian"
+    },
+    {
+        "word": "foto",
+        "type": "dutch"
+    },
+    {
+        "word": "фотографія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "boek",
+        "type": "dutch"
+    },
+    {
+        "word": "книга",
+        "type": "ukrainian"
+    },
+    {
+        "word": "krant",
+        "type": "dutch"
+    },
+    {
+        "word": "газета",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tijdschrift",
+        "type": "dutch"
+    },
+    {
+        "word": "журнал",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pen",
+        "type": "dutch"
+    },
+    {
+        "word": "ручка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "potlood",
+        "type": "dutch"
+    },
+    {
+        "word": "олівець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "papier",
+        "type": "dutch"
+    },
+    {
+        "word": "папір",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schaar",
+        "type": "dutch"
+    },
+    {
+        "word": "ножиці",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lijm",
+        "type": "dutch"
+    },
+    {
+        "word": "клей",
+        "type": "ukrainian"
+    },
+    {
+        "word": "plakband",
+        "type": "dutch"
+    },
+    {
+        "word": "скотч",
+        "type": "ukrainian"
+    },
+    {
+        "word": "liniaal",
+        "type": "dutch"
+    },
+    {
+        "word": "лінійка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "gum",
+        "type": "dutch"
+    },
+    {
+        "word": "гумка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bord",
+        "type": "dutch"
+    },
+    {
+        "word": "дошка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "krijt",
+        "type": "dutch"
+    },
+    {
+        "word": "крейда",
+        "type": "ukrainian"
+    },
+    {
+        "word": "stift",
+        "type": "dutch"
+    },
+    {
+        "word": "маркер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "verf",
+        "type": "dutch"
+    },
+    {
+        "word": "фарба",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kwast",
+        "type": "dutch"
+    },
+    {
+        "word": "пензлик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "hamer",
+        "type": "dutch"
+    },
+    {
+        "word": "молоток",
+        "type": "ukrainian"
+    },
+    {
+        "word": "spijker",
+        "type": "dutch"
+    },
+    {
+        "word": "цвях",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schroevendraaier",
+        "type": "dutch"
+    },
+    {
+        "word": "викрутка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schroef",
+        "type": "dutch"
+    },
+    {
+        "word": "гвинт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zaag",
+        "type": "dutch"
+    },
+    {
+        "word": "пила",
+        "type": "ukrainian"
+    },
+    {
+        "word": "boor",
+        "type": "dutch"
+    },
+    {
+        "word": "дриль",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ladder",
+        "type": "dutch"
+    },
+    {
+        "word": "драбина",
+        "type": "ukrainian"
+    },
+    {
+        "word": "touw",
+        "type": "dutch"
+    },
+    {
+        "word": "мотузка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "doos",
+        "type": "dutch"
+    },
+    {
+        "word": "коробка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "fles",
+        "type": "dutch"
+    },
+    {
+        "word": "пляшка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "glas",
+        "type": "dutch"
+    },
+    {
+        "word": "склянка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kopje",
+        "type": "dutch"
+    },
+    {
+        "word": "чашка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bord",
+        "type": "dutch"
+    },
+    {
+        "word": "тарілка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vork",
+        "type": "dutch"
+    },
+    {
+        "word": "виделка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "lepel",
+        "type": "dutch"
+    },
+    {
+        "word": "ложка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "mes",
+        "type": "dutch"
+    },
+    {
+        "word": "ніж",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pan",
+        "type": "dutch"
+    },
+    {
+        "word": "каструля",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koekenpan",
+        "type": "dutch"
+    },
+    {
+        "word": "сковорідка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "oven",
+        "type": "dutch"
+    },
+    {
+        "word": "духовка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "magnetron",
+        "type": "dutch"
+    },
+    {
+        "word": "мікрохвильовка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koelkast",
+        "type": "dutch"
+    },
+    {
+        "word": "холодильник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vriezer",
+        "type": "dutch"
+    },
+    {
+        "word": "морозилка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wasmachine",
+        "type": "dutch"
+    },
+    {
+        "word": "пральна машина",
+        "type": "ukrainian"
+    },
+    {
+        "word": "droger",
+        "type": "dutch"
+    },
+    {
+        "word": "сушарка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "stofzuiger",
+        "type": "dutch"
+    },
+    {
+        "word": "пилосос",
+        "type": "ukrainian"
+    },
+    {
+        "word": "strijkijzer",
+        "type": "dutch"
+    },
+    {
+        "word": "праска",
+        "type": "ukrainian"
+    },
+    {
+        "word": "afval",
+        "type": "dutch"
+    },
+    {
+        "word": "сміття",
+        "type": "ukrainian"
+    },
+    {
+        "word": "prullenbak",
+        "type": "dutch"
+    },
+    {
+        "word": "смітник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "post",
+        "type": "dutch"
+    },
+    {
+        "word": "пошта",
+        "type": "ukrainian"
+    },
+    {
+        "word": "brief",
+        "type": "dutch"
+    },
+    {
+        "word": "лист",
+        "type": "ukrainian"
+    },
+    {
+        "word": "pakket",
+        "type": "dutch"
+    },
+    {
+        "word": "посилка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "stempel",
+        "type": "dutch"
+    },
+    {
+        "word": "штамп",
+        "type": "ukrainian"
+    },
+    {
+        "word": "handtekening",
+        "type": "dutch"
+    },
+    {
+        "word": "підпис",
+        "type": "ukrainian"
+    },
+    {
+        "word": "contract",
+        "type": "dutch"
+    },
+    {
+        "word": "контракт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wet",
+        "type": "dutch"
+    },
+    {
+        "word": "закон",
+        "type": "ukrainian"
+    },
+    {
+        "word": "regel",
+        "type": "dutch"
+    },
+    {
+        "word": "правило",
+        "type": "ukrainian"
+    },
+    {
+        "word": "idee",
+        "type": "dutch"
+    },
+    {
+        "word": "ідея",
+        "type": "ukrainian"
+    },
+    {
+        "word": "plan",
+        "type": "dutch"
+    },
+    {
+        "word": "план",
+        "type": "ukrainian"
+    },
+    {
+        "word": "doel",
+        "type": "dutch"
+    },
+    {
+        "word": "мета",
+        "type": "ukrainian"
+    },
+    {
+        "word": "droom",
+        "type": "dutch"
+    },
+    {
+        "word": "мрія",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wens",
+        "type": "dutch"
+    },
+    {
+        "word": "бажання",
+        "type": "ukrainian"
+    },
+    {
+        "word": "geheim",
+        "type": "dutch"
+    },
+    {
+        "word": "таємниця",
+        "type": "ukrainian"
+    },
+    {
+        "word": "leugen",
+        "type": "dutch"
+    },
+    {
+        "word": "брехня",
+        "type": "ukrainian"
+    },
+    {
+        "word": "waarheid",
+        "type": "dutch"
+    },
+    {
+        "word": "правда",
+        "type": "ukrainian"
+    }
+]

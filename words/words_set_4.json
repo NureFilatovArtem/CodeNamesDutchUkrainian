@@ -1,0 +1,1210 @@
+[
+    {
+        "word": "dokter",
+        "type": "dutch"
+    },
+    {
+        "word": "лікар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "verpleegster",
+        "type": "dutch"
+    },
+    {
+        "word": "медсестра",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tandarts",
+        "type": "dutch"
+    },
+    {
+        "word": "стоматолог",
+        "type": "ukrainian"
+    },
+    {
+        "word": "chirurg",
+        "type": "dutch"
+    },
+    {
+        "word": "хірург",
+        "type": "ukrainian"
+    },
+    {
+        "word": "apotheker",
+        "type": "dutch"
+    },
+    {
+        "word": "фармацевт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "leraar",
+        "type": "dutch"
+    },
+    {
+        "word": "вчитель",
+        "type": "ukrainian"
+    },
+    {
+        "word": "professor",
+        "type": "dutch"
+    },
+    {
+        "word": "професор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "student",
+        "type": "dutch"
+    },
+    {
+        "word": "студент",
+        "type": "ukrainian"
+    },
+    {
+        "word": "leerling",
+        "type": "dutch"
+    },
+    {
+        "word": "учень",
+        "type": "ukrainian"
+    },
+    {
+        "word": "directeur",
+        "type": "dutch"
+    },
+    {
+        "word": "директор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "manager",
+        "type": "dutch"
+    },
+    {
+        "word": "менеджер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "secretaresse",
+        "type": "dutch"
+    },
+    {
+        "word": "секретар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "accountant",
+        "type": "dutch"
+    },
+    {
+        "word": "бухгалтер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "advocaat",
+        "type": "dutch"
+    },
+    {
+        "word": "адвокат",
+        "type": "ukrainian"
+    },
+    {
+        "word": "rechter",
+        "type": "dutch"
+    },
+    {
+        "word": "суддя",
+        "type": "ukrainian"
+    },
+    {
+        "word": "politieagent",
+        "type": "dutch"
+    },
+    {
+        "word": "поліцейський",
+        "type": "ukrainian"
+    },
+    {
+        "word": "detective",
+        "type": "dutch"
+    },
+    {
+        "word": "детектив",
+        "type": "ukrainian"
+    },
+    {
+        "word": "brandweerman",
+        "type": "dutch"
+    },
+    {
+        "word": "пожежник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "soldaat",
+        "type": "dutch"
+    },
+    {
+        "word": "солдат",
+        "type": "ukrainian"
+    },
+    {
+        "word": "generaal",
+        "type": "dutch"
+    },
+    {
+        "word": "генерал",
+        "type": "ukrainian"
+    },
+    {
+        "word": "piloot",
+        "type": "dutch"
+    },
+    {
+        "word": "пілот",
+        "type": "ukrainian"
+    },
+    {
+        "word": "steward",
+        "type": "dutch"
+    },
+    {
+        "word": "стюард",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kapitein",
+        "type": "dutch"
+    },
+    {
+        "word": "капітан",
+        "type": "ukrainian"
+    },
+    {
+        "word": "matroos",
+        "type": "dutch"
+    },
+    {
+        "word": "матрос",
+        "type": "ukrainian"
+    },
+    {
+        "word": "chauffeur",
+        "type": "dutch"
+    },
+    {
+        "word": "водій",
+        "type": "ukrainian"
+    },
+    {
+        "word": "taxichauffeur",
+        "type": "dutch"
+    },
+    {
+        "word": "таксист",
+        "type": "ukrainian"
+    },
+    {
+        "word": "buschauffeur",
+        "type": "dutch"
+    },
+    {
+        "word": "водій автобуса",
+        "type": "ukrainian"
+    },
+    {
+        "word": "machinist",
+        "type": "dutch"
+    },
+    {
+        "word": "машиніст",
+        "type": "ukrainian"
+    },
+    {
+        "word": "conducteur",
+        "type": "dutch"
+    },
+    {
+        "word": "кондуктор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "fietskoerier",
+        "type": "dutch"
+    },
+    {
+        "word": "кур'єр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "postbode",
+        "type": "dutch"
+    },
+    {
+        "word": "листоноша",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kok",
+        "type": "dutch"
+    },
+    {
+        "word": "кухар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "chef",
+        "type": "dutch"
+    },
+    {
+        "word": "шеф-кухар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kelner",
+        "type": "dutch"
+    },
+    {
+        "word": "офіціант",
+        "type": "ukrainian"
+    },
+    {
+        "word": "barman",
+        "type": "dutch"
+    },
+    {
+        "word": "бармен",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bakker",
+        "type": "dutch"
+    },
+    {
+        "word": "пекар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "slager",
+        "type": "dutch"
+    },
+    {
+        "word": "м'ясник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "groenteboer",
+        "type": "dutch"
+    },
+    {
+        "word": "продавець овочів",
+        "type": "ukrainian"
+    },
+    {
+        "word": "visser",
+        "type": "dutch"
+    },
+    {
+        "word": "рибалка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "boer",
+        "type": "dutch"
+    },
+    {
+        "word": "фермер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tuinman",
+        "type": "dutch"
+    },
+    {
+        "word": "садівник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bloemist",
+        "type": "dutch"
+    },
+    {
+        "word": "квіткар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kapper",
+        "type": "dutch"
+    },
+    {
+        "word": "перукар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schoonheidsspecialist",
+        "type": "dutch"
+    },
+    {
+        "word": "косметолог",
+        "type": "ukrainian"
+    },
+    {
+        "word": "masseur",
+        "type": "dutch"
+    },
+    {
+        "word": "масажист",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schoonmaker",
+        "type": "dutch"
+    },
+    {
+        "word": "прибиральник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "portier",
+        "type": "dutch"
+    },
+    {
+        "word": "портьє",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bewaker",
+        "type": "dutch"
+    },
+    {
+        "word": "охоронець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "elektriciën",
+        "type": "dutch"
+    },
+    {
+        "word": "електрик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "loodgieter",
+        "type": "dutch"
+    },
+    {
+        "word": "сантехнік",
+        "type": "ukrainian"
+    },
+    {
+        "word": "timmerman",
+        "type": "dutch"
+    },
+    {
+        "word": "тесляр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "metselaar",
+        "type": "dutch"
+    },
+    {
+        "word": "муляр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schilder",
+        "type": "dutch"
+    },
+    {
+        "word": "маляр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "architect",
+        "type": "dutch"
+    },
+    {
+        "word": "архітектор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ingenieur",
+        "type": "dutch"
+    },
+    {
+        "word": "інженер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "programmeur",
+        "type": "dutch"
+    },
+    {
+        "word": "програміст",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ontwerper",
+        "type": "dutch"
+    },
+    {
+        "word": "дизайнер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "fotograaf",
+        "type": "dutch"
+    },
+    {
+        "word": "фотограф",
+        "type": "ukrainian"
+    },
+    {
+        "word": "cameraman",
+        "type": "dutch"
+    },
+    {
+        "word": "оператор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "regisseur",
+        "type": "dutch"
+    },
+    {
+        "word": "режисер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "acteur",
+        "type": "dutch"
+    },
+    {
+        "word": "актор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "actrice",
+        "type": "dutch"
+    },
+    {
+        "word": "акторка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zanger",
+        "type": "dutch"
+    },
+    {
+        "word": "співак",
+        "type": "ukrainian"
+    },
+    {
+        "word": "muzikant",
+        "type": "dutch"
+    },
+    {
+        "word": "музикант",
+        "type": "ukrainian"
+    },
+    {
+        "word": "danser",
+        "type": "dutch"
+    },
+    {
+        "word": "танцюрист",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kunstenaar",
+        "type": "dutch"
+    },
+    {
+        "word": "художник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "beeldhouwer",
+        "type": "dutch"
+    },
+    {
+        "word": "скульптор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schrijver",
+        "type": "dutch"
+    },
+    {
+        "word": "письменник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dichter",
+        "type": "dutch"
+    },
+    {
+        "word": "поет",
+        "type": "ukrainian"
+    },
+    {
+        "word": "journalist",
+        "type": "dutch"
+    },
+    {
+        "word": "журналіст",
+        "type": "ukrainian"
+    },
+    {
+        "word": "redacteur",
+        "type": "dutch"
+    },
+    {
+        "word": "редактор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "verslaggever",
+        "type": "dutch"
+    },
+    {
+        "word": "репортер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "presentator",
+        "type": "dutch"
+    },
+    {
+        "word": "ведучий",
+        "type": "ukrainian"
+    },
+    {
+        "word": "model",
+        "type": "dutch"
+    },
+    {
+        "word": "модель",
+        "type": "ukrainian"
+    },
+    {
+        "word": "sportman",
+        "type": "dutch"
+    },
+    {
+        "word": "спортсмен",
+        "type": "ukrainian"
+    },
+    {
+        "word": "voetballer",
+        "type": "dutch"
+    },
+    {
+        "word": "футболіст",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tennisser",
+        "type": "dutch"
+    },
+    {
+        "word": "тенісист",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zwemmer",
+        "type": "dutch"
+    },
+    {
+        "word": "плавець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "fietser",
+        "type": "dutch"
+    },
+    {
+        "word": "велосипедист",
+        "type": "ukrainian"
+    },
+    {
+        "word": "loper",
+        "type": "dutch"
+    },
+    {
+        "word": "бігун",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bokser",
+        "type": "dutch"
+    },
+    {
+        "word": "боксер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "schaatser",
+        "type": "dutch"
+    },
+    {
+        "word": "ковзаняр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "skiër",
+        "type": "dutch"
+    },
+    {
+        "word": "лижник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "coach",
+        "type": "dutch"
+    },
+    {
+        "word": "тренер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "scheidsrechter",
+        "type": "dutch"
+    },
+    {
+        "word": "суддя",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wetenschapper",
+        "type": "dutch"
+    },
+    {
+        "word": "науковець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "onderzoeker",
+        "type": "dutch"
+    },
+    {
+        "word": "дослідник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "astronaut",
+        "type": "dutch"
+    },
+    {
+        "word": "астронавт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "astronoom",
+        "type": "dutch"
+    },
+    {
+        "word": "астроном",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bioloog",
+        "type": "dutch"
+    },
+    {
+        "word": "біолог",
+        "type": "ukrainian"
+    },
+    {
+        "word": "chemicus",
+        "type": "dutch"
+    },
+    {
+        "word": "хімік",
+        "type": "ukrainian"
+    },
+    {
+        "word": "fysicus",
+        "type": "dutch"
+    },
+    {
+        "word": "фізик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "wiskundige",
+        "type": "dutch"
+    },
+    {
+        "word": "математик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "psycholoog",
+        "type": "dutch"
+    },
+    {
+        "word": "психолог",
+        "type": "ukrainian"
+    },
+    {
+        "word": "socioloog",
+        "type": "dutch"
+    },
+    {
+        "word": "соціолог",
+        "type": "ukrainian"
+    },
+    {
+        "word": "filosoof",
+        "type": "dutch"
+    },
+    {
+        "word": "філософ",
+        "type": "ukrainian"
+    },
+    {
+        "word": "historicus",
+        "type": "dutch"
+    },
+    {
+        "word": "історик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "archeoloog",
+        "type": "dutch"
+    },
+    {
+        "word": "археолог",
+        "type": "ukrainian"
+    },
+    {
+        "word": "geoloog",
+        "type": "dutch"
+    },
+    {
+        "word": "геолог",
+        "type": "ukrainian"
+    },
+    {
+        "word": "meteoroloog",
+        "type": "dutch"
+    },
+    {
+        "word": "метеоролог",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dierenarts",
+        "type": "dutch"
+    },
+    {
+        "word": "ветеринар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "boswachter",
+        "type": "dutch"
+    },
+    {
+        "word": "лісник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dierentemmer",
+        "type": "dutch"
+    },
+    {
+        "word": "дресирувальник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "clown",
+        "type": "dutch"
+    },
+    {
+        "word": "клоун",
+        "type": "ukrainian"
+    },
+    {
+        "word": "goochelaar",
+        "type": "dutch"
+    },
+    {
+        "word": "фокусник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "acrobaat",
+        "type": "dutch"
+    },
+    {
+        "word": "акробат",
+        "type": "ukrainian"
+    },
+    {
+        "word": "jongleur",
+        "type": "dutch"
+    },
+    {
+        "word": "жонглер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "babysit",
+        "type": "dutch"
+    },
+    {
+        "word": "няня",
+        "type": "ukrainian"
+    },
+    {
+        "word": "huisvrouw",
+        "type": "dutch"
+    },
+    {
+        "word": "домогосподарка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vader",
+        "type": "dutch"
+    },
+    {
+        "word": "батько",
+        "type": "ukrainian"
+    },
+    {
+        "word": "moeder",
+        "type": "dutch"
+    },
+    {
+        "word": "мати",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zoon",
+        "type": "dutch"
+    },
+    {
+        "word": "син",
+        "type": "ukrainian"
+    },
+    {
+        "word": "dochter",
+        "type": "dutch"
+    },
+    {
+        "word": "дочка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "broer",
+        "type": "dutch"
+    },
+    {
+        "word": "брат",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zus",
+        "type": "dutch"
+    },
+    {
+        "word": "сестра",
+        "type": "ukrainian"
+    },
+    {
+        "word": "grootvader",
+        "type": "dutch"
+    },
+    {
+        "word": "дідусь",
+        "type": "ukrainian"
+    },
+    {
+        "word": "grootmoeder",
+        "type": "dutch"
+    },
+    {
+        "word": "бабуся",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kleinzoon",
+        "type": "dutch"
+    },
+    {
+        "word": "онук",
+        "type": "ukrainian"
+    },
+    {
+        "word": "kleindochter",
+        "type": "dutch"
+    },
+    {
+        "word": "онука",
+        "type": "ukrainian"
+    },
+    {
+        "word": "oom",
+        "type": "dutch"
+    },
+    {
+        "word": "дядько",
+        "type": "ukrainian"
+    },
+    {
+        "word": "tante",
+        "type": "dutch"
+    },
+    {
+        "word": "тітка",
+        "type": "ukrainian"
+    },
+    {
+        "word": "neef",
+        "type": "dutch"
+    },
+    {
+        "word": "племінник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "nicht",
+        "type": "dutch"
+    },
+    {
+        "word": "племінниця",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vriend",
+        "type": "dutch"
+    },
+    {
+        "word": "друг",
+        "type": "ukrainian"
+    },
+    {
+        "word": "vriendin",
+        "type": "dutch"
+    },
+    {
+        "word": "подруга",
+        "type": "ukrainian"
+    },
+    {
+        "word": "buurman",
+        "type": "dutch"
+    },
+    {
+        "word": "сусід",
+        "type": "ukrainian"
+    },
+    {
+        "word": "collega",
+        "type": "dutch"
+    },
+    {
+        "word": "колега",
+        "type": "ukrainian"
+    },
+    {
+        "word": "baas",
+        "type": "dutch"
+    },
+    {
+        "word": "бос",
+        "type": "ukrainian"
+    },
+    {
+        "word": "werknemer",
+        "type": "dutch"
+    },
+    {
+        "word": "працівник",
+        "type": "ukrainian"
+    },
+    {
+        "word": "werkgever",
+        "type": "dutch"
+    },
+    {
+        "word": "роботодавець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "klant",
+        "type": "dutch"
+    },
+    {
+        "word": "клієнт",
+        "type": "ukrainian"
+    },
+    {
+        "word": "verkoper",
+        "type": "dutch"
+    },
+    {
+        "word": "продавець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koper",
+        "type": "dutch"
+    },
+    {
+        "word": "покупець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ondernemer",
+        "type": "dutch"
+    },
+    {
+        "word": "підприємець",
+        "type": "ukrainian"
+    },
+    {
+        "word": "zakenman",
+        "type": "dutch"
+    },
+    {
+        "word": "бізнесмен",
+        "type": "ukrainian"
+    },
+    {
+        "word": "investeerder",
+        "type": "dutch"
+    },
+    {
+        "word": "інвестор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "bankier",
+        "type": "dutch"
+    },
+    {
+        "word": "банкір",
+        "type": "ukrainian"
+    },
+    {
+        "word": "econoom",
+        "type": "dutch"
+    },
+    {
+        "word": "економіст",
+        "type": "ukrainian"
+    },
+    {
+        "word": "politicus",
+        "type": "dutch"
+    },
+    {
+        "word": "політик",
+        "type": "ukrainian"
+    },
+    {
+        "word": "president",
+        "type": "dutch"
+    },
+    {
+        "word": "президент",
+        "type": "ukrainian"
+    },
+    {
+        "word": "minister",
+        "type": "dutch"
+    },
+    {
+        "word": "міністр",
+        "type": "ukrainian"
+    },
+    {
+        "word": "burgemeester",
+        "type": "dutch"
+    },
+    {
+        "word": "мер",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koning",
+        "type": "dutch"
+    },
+    {
+        "word": "король",
+        "type": "ukrainian"
+    },
+    {
+        "word": "koningin",
+        "type": "dutch"
+    },
+    {
+        "word": "королева",
+        "type": "ukrainian"
+    },
+    {
+        "word": "prins",
+        "type": "dutch"
+    },
+    {
+        "word": "принц",
+        "type": "ukrainian"
+    },
+    {
+        "word": "prinses",
+        "type": "dutch"
+    },
+    {
+        "word": "принцеса",
+        "type": "ukrainian"
+    },
+    {
+        "word": "keizer",
+        "type": "dutch"
+    },
+    {
+        "word": "імператор",
+        "type": "ukrainian"
+    },
+    {
+        "word": "ridder",
+        "type": "dutch"
+    },
+    {
+        "word": "лицар",
+        "type": "ukrainian"
+    },
+    {
+        "word": "krijger",
+        "type": "dutch"
+    },
+    {
+        "word": "воїн",
+        "type": "ukrainian"
+    },
+    {
+        "word": "held",
+        "type": "dutch"
+    },
+    {
+        "word": "герой",
+        "type": "ukrainian"
+    },
+    {
+        "word": "slachtoffer",
+        "type": "dutch"
+    },
+    {
+        "word": "жертва",
+        "type": "ukrainian"
+    }
+]
