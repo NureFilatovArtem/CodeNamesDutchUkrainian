@@ -140,7 +140,11 @@ io.on('connection', (socket) => {
             roomId: finalRoomId,
             gameState: room.gameState,
             players: room.players,
-            settings: room.settings
+            settings: room.settings,
+            gameStatus: {
+                started: room.gameStarted || false,
+                paused: room.isPaused || false
+            }
         });
     });
 
@@ -173,7 +177,11 @@ io.on('connection', (socket) => {
             roomId: finalRoomId,
             gameState: room.gameState,
             players: room.players,
-            settings: room.settings
+            settings: room.settings,
+            gameStatus: {
+                started: room.gameStarted || false,
+                paused: room.isPaused || false
+            }
         });
     });
 

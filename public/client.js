@@ -264,11 +264,16 @@ let lastGameState = null;
 let lastSettings = null;
 let lastPlayers = [];
 
-socket.on('roomJoined', ({ roomId, gameState, players, settings }) => {
+socket.on('roomJoined', ({ roomId, gameState, players, settings, gameStatus }) => {
     currentRoomId = roomId;
     lastGameState = gameState;
     lastSettings = settings;
     lastPlayers = players;
+
+    if (gameStatus) {
+        isGameStarted = gameStatus.started;
+        isGamePaused = gameStatus.paused;
+    }
 
     // Update session with actual Room ID (in case we generated one)
     sessionStorage.setItem('codenames_room', roomId);
