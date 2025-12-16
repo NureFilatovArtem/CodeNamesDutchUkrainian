@@ -442,8 +442,12 @@ input {
 }
 
 .card.revealed.neutral {
-    background: var(--neutral-color);
-    color: #1f1f1f;
+    background: #e6e6e6;
+    /* White/Light Grey */
+    color: #444;
+    /* Dark text for contrast */
+    border: 2px solid #ccc;
+    /* Subtle border to distinguish from background */
     opacity: 1;
 }
 

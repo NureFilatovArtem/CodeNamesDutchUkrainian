@@ -319,9 +319,14 @@ io.on('connection', (socket) => {
         if (card.type === 'blue') room.gameState.scores.blue--;
         if (card.type === 'red') room.gameState.scores.red--;
 
-        // Check Win
+        // Check Win / Assassin
         if (card.type === 'black') {
+            // Assassin: Game Over Immediately
             room.gameState.winner = room.gameState.currentTeam === 'blue' ? 'red' : 'blue';
+
+            // Reveal ALL cards
+            room.gameState.cards.forEach(c => c.revealed = true);
+
         } else if (room.gameState.scores.blue === 0) {
             room.gameState.winner = 'blue';
         } else if (room.gameState.scores.red === 0) {
