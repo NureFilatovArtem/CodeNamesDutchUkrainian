@@ -496,14 +496,16 @@ function updateControlsState(gameState) {
     const btn = gameElements.endTurnBtn;
     if (isMyTurn) {
         if (playerRole === 'spymaster' && gameState.phase === 'clue') {
-            btn.textContent = t.startTimer;
+            // Captain ends their clue phase to give time to team
+            btn.textContent = "DONE (Start Guessing)";
             btn.classList.remove('hidden', 'btn-danger');
-            btn.classList.add('btn-primary'); // Green/Blue for "Start"
+            btn.classList.add('btn-primary');
             btn.disabled = false;
         } else if (gameState.phase === 'guess') {
+            // Team ends their guess phase to give turn to other team
             btn.textContent = t.endTurn;
             btn.classList.remove('hidden', 'btn-primary');
-            btn.classList.add('btn-danger'); // Red for "Stop"
+            btn.classList.add('btn-danger');
             btn.disabled = false;
         } else {
             btn.classList.add('hidden');

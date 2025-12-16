@@ -679,79 +679,157 @@ input:checked+.slider:before {
 
 /* Mobile Responsive */
 @media (max-width: 900px) {
-    .game-layout {
-        flex-direction: column;
+    body {
+        height: auto;
         overflow-y: auto;
+        padding-bottom: 60px;
+        /* Space for fixed settings/buttons */
     }
 
+    .game-layout {
+        flex-direction: column;
+        height: auto;
+        /* Allow scrolling */
+        overflow-y: visible;
+    }
+
+    /* 1. Game Center (Board) Goes Top */
+    .game-center {
+        order: 1;
+        padding: 1rem 0.5rem;
+        min-height: auto;
+    }
+
+    .grid-5x5 {
+        gap: 6px;
+        width: 100%;
+        max-width: 100%;
+        aspect-ratio: 1;
+        /* Force square on mobile */
+    }
+
+    .card {
+        padding: 2px;
+        border-radius: 4px;
+    }
+
+    .card-word {
+        font-size: 0.65rem;
+        /* Smaller text */
+        line-height: 1.1;
+        font-weight: 800;
+    }
+
+    .admin-controls {
+        position: relative;
+        left: 0;
+        transform: none;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .spectators-container {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+        order: -1;
+    }
+
+    /* 2. Team Panels (Below Board) */
     .team-panel {
+        order: 2;
         width: 100%;
         height: auto;
-        flex-direction: row;
-        align-items: center;
-        padding: 0.5rem;
+        min-height: auto;
+        flex-direction: column;
+        /* Stack internals vertically again for clarity */
+        padding: 1rem;
         gap: 1rem;
         border-right: none;
         border-bottom: 1px solid var(--glass-border);
+        background: rgba(0, 0, 0, 0.3);
+        /* Darker background to separate from board */
+    }
+
+    .blue-panel {
+        border-top: 4px solid var(--blue-team);
+    }
+
+    .red-panel {
+        border-top: 4px solid var(--red-team);
     }
 
     .panel-header {
-        margin-bottom: 0;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 1rem;
+        width: 100%;
     }
 
     .panel-header h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin: 0;
     }
 
     .score-display {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .timer-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 0;
     }
 
     .timer-display {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin: 0;
     }
 
     .team-controls {
         flex-direction: row;
-        margin: 0;
+        justify-content: center;
+        width: 100%;
     }
 
+    .btn {
+        padding: 10px 16px;
+        /* Larger touch target */
+    }
+
+    /* Clue List - Compact */
+    .clue-section {
+        max-height: 200px;
+    }
+
+    .clue-history-list {
+        max-height: 120px;
+        min-height: 60px;
+    }
+
+    /* 3. Hide Players List to save space (can be toggled later if needed) */
     .players-list {
         display: none;
-    }
-
-    .game-center {
-        padding: 1rem;
-    }
-
-    .admin-controls {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
-        margin-bottom: 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .spectators-container {
-        position: relative;
-        top: 0;
-        right: 0;
-        justify-content: center;
-        margin-bottom: 0.5rem;
     }
 
     .settings-fixed {
         bottom: 1rem;
         right: 1rem;
-        width: 40px;
-        height: 40px;
-        font-size: 1.2rem;
+        width: 48px;
+        height: 48px;
+        background: rgba(0, 0, 0, 0.8);
+        /* More visible */
+    }
+
+    /* Prevent iOS zoom on focus */
+    input,
+    select,
+    textarea {
+        font-size: 16px !important;
     }
 }

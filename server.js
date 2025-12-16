@@ -55,9 +55,9 @@ function generateBoard(language) {
     const shuffled = [...langWords].sort(() => 0.5 - Math.random());
     const selectedWords = shuffled.slice(0, 25);
 
-    // Assign colors
-    const startingTeam = Math.random() < 0.5 ? 'blue' : 'red';
-    const secondTeam = startingTeam === 'blue' ? 'red' : 'blue';
+    // Forces RED to start (9 words)
+    const startingTeam = 'red';
+    const secondTeam = 'blue';
 
     let colors = [
         'black',
@@ -68,6 +68,7 @@ function generateBoard(language) {
 
     colors = colors.sort(() => 0.5 - Math.random());
 
+    // Red always starts with 120s for Clue Phase
     return {
         cards: selectedWords.map((wordObj, index) => ({
             word: wordObj.word,
@@ -78,14 +79,14 @@ function generateBoard(language) {
         startingTeam,
         currentTeam: startingTeam,
         phase: 'clue', // 'clue' or 'guess'
-        firstGuessTurn: true, // Special 120s timer for very first guess turn
+        redFirstTurnGiven: false, // Track if Red used their special 120s turn
         scores: {
-            blue: startingTeam === 'blue' ? 9 : 8,
-            red: startingTeam === 'red' ? 9 : 8
+            blue: 8,
+            red: 9
         },
         timers: {
-            blue: 0, // 0 means untimed/clue phase
-            red: 0
+            blue: 0,
+            red: 120 // Red First Turn Clue Phase = 120s
         },
         clueHistory: {
             blue: [],
@@ -109,7 +110,6 @@ io.on('connection', (socket) => {
                 socket.emit('error', 'Room already exists');
                 return;
             } else {
-                // Retry generation (simple recursion/loop, but collision unlikely for now)
                 return; // TODO: handle collision retry
             }
         }
@@ -236,7 +236,6 @@ io.on('connection', (socket) => {
     socket.on('updateSettings', ({ roomId, settings }) => {
         const room = rooms.get(roomId);
         if (room) {
-            // Check if requester is host? For now open.
             room.settings = settings;
             io.to(roomId).emit('settingsUpdated', settings);
         }
@@ -305,7 +304,7 @@ io.on('connection', (socket) => {
         if (!room || room.gameState.winner) return;
         if (!room.gameStarted || room.isPaused) return;
 
-        // Phase Check: Must be 'guess' phase
+        // Phase Check: Must be 'guess' phase to reveal cards
         if (room.gameState.phase !== 'guess') return;
 
         const card = room.gameState.cards[cardIndex];
@@ -329,10 +328,18 @@ io.on('connection', (socket) => {
             room.gameState.winner = 'red';
         }
 
-        // Wrong guess Logic
-        if (!room.gameState.winner && card.type !== room.gameState.currentTeam) {
-            // End Turn immediately
-            switchTurn(room);
+        // Logic Check
+        if (!room.gameState.winner) {
+            if (card.type === room.gameState.currentTeam) {
+                // Correct Guess: BONUS TIME (+10s)
+                room.gameState.timers[room.gameState.currentTeam] += 10;
+                // Emit timer update immediately
+                io.to(roomId).emit('timerUpdate', room.gameState.timers);
+            } else {
+                // Wrong guess or neutral -> End Turn immediately
+                // Switch to OTHER TEAM's CLUE Phase
+                switchTurn(room);
+            }
         }
 
         io.to(roomId).emit('gameStateUpdate', room.gameState);
@@ -347,24 +354,19 @@ io.on('connection', (socket) => {
         if (!player) return;
 
         const isCurrentTeam = player.team === room.gameState.currentTeam;
+        if (!isCurrentTeam) return;
 
         // Logic depends on Phase
         if (room.gameState.phase === 'clue') {
-            // Only Spymaster of current team can end clue phase -> start guessing
-            if (isCurrentTeam && player.role === 'spymaster') {
-                room.gameState.phase = 'guess';
-                // Set Timer
-                const duration = (room.gameState.firstGuessTurn) ? 120 : 60;
-                room.gameState.timers[room.gameState.currentTeam] = duration;
+            // Spymaster ends clue phase -> Start Guess Phase (SAME TEAM)
+            if (player.role === 'spymaster') {
+                startGuessPhase(room);
                 io.to(roomId).emit('gameStateUpdate', room.gameState);
             }
         } else if (room.gameState.phase === 'guess') {
-            // Team (usually operatives) can end turn to stop guessing
-            // Also Captain can force end it? Assume any team member can pass
-            if (isCurrentTeam) {
-                switchTurn(room);
-                io.to(roomId).emit('gameStateUpdate', room.gameState);
-            }
+            // Operatives end guess phase -> Switch Team (OTHER TEAM Starts Clue)
+            switchTurn(room);
+            io.to(roomId).emit('gameStateUpdate', room.gameState);
         }
     });
 
@@ -383,18 +385,34 @@ io.on('connection', (socket) => {
         });
     });
 
-    function switchTurn(room) {
-        room.gameState.currentTeam = room.gameState.currentTeam === 'blue' ? 'red' : 'blue';
-        room.gameState.phase = 'clue'; // Reset to clue phase
-        room.gameState.timers.blue = 0;
-        room.gameState.timers.red = 0;
+    // Helper: Transition from Clue -> Guess (Same Team)
+    function startGuessPhase(room) {
+        room.gameState.phase = 'guess';
+        // Always 60s for guessing
+        room.gameState.timers[room.gameState.currentTeam] = 60;
 
-        // Once the first team finishes their first set of actions (Clue+Guess), firstTurn is over?
-        // Actually usually strictly "First Team's First Turn" is long.
-        // Let's toggle it off as soon as the starting team finishes their turn.
-        if (room.gameState.currentTeam !== room.gameState.startingTeam) {
-            room.gameState.firstGuessTurn = false;
+        // Mark Red's first turn as used if we just finished Red Clue #1
+        if (room.gameState.currentTeam === 'red' && !room.gameState.redFirstTurnGiven) {
+            room.gameState.redFirstTurnGiven = true;
         }
+    }
+
+    // Helper: Transition to Other Team (Guess -> Clue)
+    function switchTurn(room) {
+        // Switch Team
+        room.gameState.currentTeam = room.gameState.currentTeam === 'blue' ? 'red' : 'blue';
+        room.gameState.phase = 'clue';
+
+        // Determine Clue Timer
+        let duration = 60; // Standard
+        if (room.gameState.currentTeam === 'red' && !room.gameState.redFirstTurnGiven) {
+            duration = 120; // Red's First Turn Bonus
+        }
+
+        room.gameState.timers[room.gameState.currentTeam] = duration;
+
+        // Zero out other team's timer? 
+        room.gameState.timers[room.gameState.currentTeam === 'blue' ? 'red' : 'blue'] = 0;
     }
 
     function startTimerLoop(room) {
@@ -403,17 +421,21 @@ io.on('connection', (socket) => {
         room.timerInterval = setInterval(() => {
             if (!room.gameStarted || room.isPaused || room.gameState.winner) return;
 
-            // Only tick in Guess phase
-            if (room.gameState.phase === 'guess') {
-                const team = room.gameState.currentTeam;
-                if (room.gameState.timers[team] > 0) {
-                    room.gameState.timers[team]--;
-                    io.to(room.id).emit('timerUpdate', room.gameState.timers);
+            // Tick for BOTH phases now
+            const team = room.gameState.currentTeam;
+            if (room.gameState.timers[team] > 0) {
+                room.gameState.timers[team]--;
+                io.to(room.id).emit('timerUpdate', room.gameState.timers);
+            } else {
+                // Timer Expired
+                if (room.gameState.phase === 'clue') {
+                    // Clue Time Over -> Force start Guessing
+                    startGuessPhase(room);
                 } else {
-                    // Time expired
+                    // Guess Time Over -> Force Switch Team
                     switchTurn(room);
-                    io.to(room.id).emit('gameStateUpdate', room.gameState);
                 }
+                io.to(room.id).emit('gameStateUpdate', room.gameState);
             }
         }, 1000);
     }
