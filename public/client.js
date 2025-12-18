@@ -5,7 +5,7 @@ let currentRoomId = null;
 let playerRole = 'spectator';
 let playerTeam = 'spectator';
 let isSpymasterMode = false;
-let interfaceLanguage = 'ukrainian';
+let interfaceLanguage = 'dutch';
 let isHost = false;
 let isGamePaused = false;
 let isGameStarted = false;
@@ -78,7 +78,11 @@ const translations = {
         phaseClue: "HINT FASE",
         phaseGuess: "RAAD FASE",
         waiting: "Wachten...",
-        submit: "Verstuur"
+        submit: "Verstuur",
+        close: "Sluiten",
+        interfaceLang: "Interface Taal",
+        wordLang: "Woord Taal",
+        traitorMode: "Traitor Modus"
     },
     ukrainian: {
         name: "Ваше Ім'я",
@@ -100,7 +104,11 @@ const translations = {
         phaseClue: "ФАЗА ПІДКАЗОК",
         phaseGuess: "ФАЗА ВІДГАДУВАННЯ",
         waiting: "Очікуємо...",
-        submit: "Надіслати"
+        submit: "Надіслати",
+        close: "Закрити",
+        interfaceLang: "Мова Інтерфейсу",
+        wordLang: "Мова Слів",
+        traitorMode: "Режим Зрадника"
     }
 };
 
@@ -137,6 +145,7 @@ window.addEventListener('load', () => {
     } else if (roomParam) {
         // Just prefill
     }
+    updateInterfaceLanguage();
 });
 
 document.getElementById('create-btn').addEventListener('click', () => {
@@ -588,6 +597,18 @@ function updateInterfaceLanguage() {
     document.querySelectorAll('[data-i18n="cluesTitle"]').forEach(el => el.textContent = t.cluesTitle);
     document.querySelectorAll('[data-i18n="submit"]').forEach(el => el.textContent = t.submit);
     document.querySelectorAll('.clue-input').forEach(el => el.setAttribute('placeholder', t.cluePlaceholder));
+
+    document.getElementById('close-settings').textContent = t.close;
+    // We can also translate the labels if we add data-i18n attributes to them in index.html
+    const settingsHeaders = document.querySelectorAll('#settings-modal h2');
+    if (settingsHeaders.length > 0) settingsHeaders[0].textContent = t.settings;
+
+    const settingsLabels = document.querySelectorAll('.setting-item label:first-child');
+    if (settingsLabels.length >= 3) {
+        settingsLabels[0].textContent = t.interfaceLang;
+        settingsLabels[1].textContent = t.wordLang;
+        settingsLabels[2].textContent = t.traitorMode;
+    }
 
     renderClues(lastGameState);
     updateControlsState(lastGameState);

@@ -20,16 +20,16 @@
             <div class="login-card glass-panel">
                 <h1>CODENAMES</h1>
                 <div class="input-group">
-                    <label data-i18n="name">Ваше Ім'я</label>
+                    <label data-i18n="name">Jouw Naam</label>
                     <input type="text" id="username-input" placeholder="Enter your name">
                 </div>
                 <div class="input-group">
-                    <label data-i18n="room">Код Кімнати</label>
+                    <label data-i18n="room">Kamer Code</label>
                     <input type="text" id="room-input" placeholder="Empty for random">
                 </div>
                 <div class="button-group">
-                    <button id="create-btn" class="btn primary">Створити</button>
-                    <button id="join-btn" class="btn secondary">Приєднатися</button>
+                    <button id="create-btn" class="btn primary">Maak Kamer</button>
+                    <button id="join-btn" class="btn secondary">Doe Mee</button>
                 </div>
             </div>
         </div>
@@ -48,21 +48,21 @@
                     <div class="phase-display" id="clue-phase-blue"></div>
                 </div>
                 <div class="team-controls">
-                    <button class="btn join-btn" onclick="joinTeam('blue')">Приєднатися</button>
-                    <button class="btn spymaster-btn" onclick="becomeSpymaster('blue')">Капітан</button>
+                    <button class="btn join-btn" onclick="joinTeam('blue')">Doe Mee</button>
+                    <button class="btn spymaster-btn" onclick="becomeSpymaster('blue')">Kapitein</button>
                 </div>
 
                 <!-- Clues History -->
                 <div class="clue-section glass-panel" id="clue-section-blue">
                     <div class="clue-header">
-                        <span class="clue-title" data-i18n="cluesTitle">Історія Підказок</span>
+                        <span class="clue-title" data-i18n="cluesTitle">Hints Geschiedenis</span>
                     </div>
                     <div class="clue-history-list" id="clue-list-blue">
                         <!-- Clue items -->
                     </div>
 
                     <div class="clue-input-area">
-                        <input type="text" class="clue-input" id="clue-input-blue" placeholder="Нова підказка...">
+                        <input type="text" class="clue-input" id="clue-input-blue" placeholder="Nieuwe hint...">
                         <button class="btn primary small" id="clue-submit-blue" data-i18n="submit">OK</button>
                     </div>
                 </div>
@@ -77,9 +77,9 @@
 
                 <!-- Admin Controls (Top Center) -->
                 <div class="admin-controls hidden" id="admin-controls">
-                    <button id="start-game-btn" class="btn primary">Start</button>
-                    <button id="pause-game-btn" class="btn warning">Pause</button>
-                    <button id="end-turn-btn" class="btn danger hidden">End Turn</button>
+                    <button id="start-game-btn" class="btn primary">Start Spel</button>
+                    <button id="pause-game-btn" class="btn warning">Pauze</button>
+                    <button id="end-turn-btn" class="btn danger hidden">Beurt Eindigen</button>
                 </div>
 
                 <div id="game-grid" class="grid-5x5">
@@ -102,19 +102,19 @@
                     <div class="phase-display" id="clue-phase-red"></div>
                 </div>
                 <div class="team-controls">
-                    <button class="btn join-btn" onclick="joinTeam('red')">Приєднатися</button>
-                    <button class="btn spymaster-btn" onclick="becomeSpymaster('red')">Капітан</button>
+                    <button class="btn join-btn" onclick="joinTeam('red')">Doe Mee</button>
+                    <button class="btn spymaster-btn" onclick="becomeSpymaster('red')">Kapitein</button>
                 </div>
 
                 <!-- Clues History -->
                 <div class="clue-section glass-panel" id="clue-section-red">
                     <div class="clue-header">
-                        <span class="clue-title" data-i18n="cluesTitle">Історія Підказок</span>
+                        <span class="clue-title" data-i18n="cluesTitle">Hints Geschiedenis</span>
                     </div>
                     <div class="clue-history-list" id="clue-list-red"></div>
 
                     <div class="clue-input-area">
-                        <input type="text" class="clue-input" id="clue-input-red" placeholder="Нова підказка...">
+                        <input type="text" class="clue-input" id="clue-input-red" placeholder="Nieuwe hint...">
                         <button class="btn primary small" id="clue-submit-red" data-i18n="submit">OK</button>
                     </div>
                 </div>
@@ -129,18 +129,18 @@
         <!-- Settings Modal -->
         <div id="settings-modal" class="modal hidden">
             <div class="modal-content glass-panel">
-                <h2>Налаштування</h2>
+                <h2>Instellingen</h2>
 
                 <div class="setting-item">
-                    <label>Мова Інтерфейсу</label>
+                    <label>Interface Taal</label>
                     <div class="toggle-group">
-                        <button class="toggle-btn" data-lang="dutch">Dutch</button>
-                        <button class="toggle-btn active" data-lang="ukrainian">Ukrainian</button>
+                        <button class="toggle-btn active" data-lang="dutch">Dutch</button>
+                        <button class="toggle-btn" data-lang="ukrainian">Ukrainian</button>
                     </div>
                 </div>
 
                 <div class="setting-item">
-                    <label>Мова Слів</label>
+                    <label>Woord Taal</label>
                     <div class="toggle-group">
                         <button class="toggle-btn active" onclick="setGameLanguage('dutch')">Dutch</button>
                         <button class="toggle-btn" onclick="setGameLanguage('ukrainian')">Ukrainian</button>
@@ -148,7 +148,7 @@
                 </div>
 
                 <div class="setting-item">
-                    <label>Traitor Mode</label>
+                    <label>Traitor Modus</label>
                     <label class="switch">
                         <input type="checkbox" id="traitor-toggle">
                         <span class="slider round"></span>
@@ -156,7 +156,7 @@
                 </div>
 
                 <div class="setting-item">
-                    <button id="reset-game-btn" class="btn danger full-width">Нова гра</button>
+                    <button id="reset-game-btn" class="btn danger full-width">Nieuw Spel</button>
                 </div>
 
                 <button id="close-settings" class="btn secondary full-width">Close</button>
