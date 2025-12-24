@@ -82,7 +82,17 @@ const translations = {
         close: "Sluiten",
         interfaceLang: "Interface Taal",
         wordLang: "Woord Taal",
-        traitorMode: "Traitor Modus"
+        traitorMode: "Traitor Modus",
+        rulesTitle: "Spelregels",
+        rulesContent: [
+            { title: "🎯 Doel van het Spel", text: "Het doel is om alle woorden van je team te vinden voordat het andere team dat doet." },
+            { title: "👥 Teams", text: "Twee teams: Rood en Blauw. Elke team heeft een Kapitein (Spymaster) die de sleutel ziet, en Spelers (Operatives) die raden." },
+            { title: "🃏 Het Speelbord", text: "25 kaarten met woorden. Sommige behoren tot Rood, sommige tot Blauw, sommige zijn neutraal (beige), en één is de Moordenaar (zwart) - vermijd deze!" },
+            { title: "💡 Kapitein geeft een hint", text: "De Kapitein ziet welke kaarten bij zijn team horen. Hij/zij geeft een hint: één woord + een getal. Het getal geeft aan hoeveel kaarten bij de hint horen." },
+            { title: "🎮 Spelers raden", text: "Spelers bespreken en kiezen kaarten. Eigen team = punt! Neutraal = beurt voorbij. Tegenstander = punt voor hen. Moordenaar = direct verloren!" },
+            { title: "⏱️ Timer", text: "Elke beurt heeft een tijdslimiet. Als de tijd op is, eindigt de beurt automatisch." },
+            { title: "🏆 Winnen", text: "Eerste team dat al hun woorden vindt, wint! Of: het andere team kiest de Moordenaar." }
+        ]
     },
     ukrainian: {
         name: "Ваше Ім'я",
@@ -108,9 +118,20 @@ const translations = {
         close: "Закрити",
         interfaceLang: "Мова Інтерфейсу",
         wordLang: "Мова Слів",
-        traitorMode: "Режим Зрадника"
+        traitorMode: "Режим Зрадника",
+        rulesTitle: "Правила Гри",
+        rulesContent: [
+            { title: "🎯 Мета Гри", text: "Мета гри — знайти всі слова своєї команди раніше, ніж це зробить суперник." },
+            { title: "👥 Команди", text: "Дві команди: Червона та Синя. Кожна команда має Капітана (Spymaster), який бачить ключ, та Гравців (Operatives), які вгадують." },
+            { title: "🃏 Ігрове Поле", text: "25 карток зі словами. Деякі належать Червоним, деякі — Синім, деякі нейтральні (бежеві), і одна — Вбивця (чорна) — уникайте її!" },
+            { title: "💡 Капітан дає підказку", text: "Капітан бачить, які картки належать його команді. Він/вона дає підказку: одне слово + число. Число вказує, скільки карток пов'язані з підказкою." },
+            { title: "🎮 Гравці вгадують", text: "Гравці обговорюють та обирають картки. Своя команда = очко! Нейтральна = хід закінчено. Суперник = очко їм. Вбивця = миттєва поразка!" },
+            { title: "⏱️ Таймер", text: "Кожен хід має обмеження часу. Коли час вичерпано, хід завершується автоматично." },
+            { title: "🏆 Перемога", text: "Перша команда, яка знайшла всі свої слова, перемагає! Або: інша команда обирає Вбивцю." }
+        ]
     }
 };
+
 
 // --- Helper Functions ---
 function getTranslation() {
@@ -238,6 +259,69 @@ document.getElementById('reset-game-btn').addEventListener('click', () => {
         socket.emit('resetGame', { roomId: currentRoomId });
         document.getElementById('settings-modal').classList.add('hidden');
     }
+});
+
+// --- Rules Modal ---
+let rulesLanguage = 'dutch'; // Independent language for rules modal
+
+function renderRulesContent() {
+    const t = translations[rulesLanguage];
+    const container = document.getElementById('rules-content');
+    const titleEl = document.getElementById('rules-title');
+
+    titleEl.textContent = t.rulesTitle;
+    container.innerHTML = '';
+
+    t.rulesContent.forEach(section => {
+        const item = document.createElement('div');
+        item.className = 'rules-item';
+        item.innerHTML = `
+            <h3>${section.title}</h3>
+            <p>${section.text}</p>
+        `;
+        container.appendChild(item);
+    });
+
+    // Update close button
+    const closeBtn = document.getElementById('close-rules-bottom');
+    if (closeBtn) closeBtn.textContent = t.close;
+}
+
+document.getElementById('rules-btn').addEventListener('click', () => {
+    rulesLanguage = interfaceLanguage; // Start with current interface language
+    renderRulesContent();
+    updateRulesLangToggle();
+    document.getElementById('rules-modal').classList.remove('hidden');
+});
+
+document.getElementById('close-rules').addEventListener('click', () => {
+    document.getElementById('rules-modal').classList.add('hidden');
+});
+
+document.getElementById('close-rules-bottom').addEventListener('click', () => {
+    document.getElementById('rules-modal').classList.add('hidden');
+});
+
+// Close on clicking outside modal content
+document.getElementById('rules-modal').addEventListener('click', (e) => {
+    if (e.target.id === 'rules-modal') {
+        document.getElementById('rules-modal').classList.add('hidden');
+    }
+});
+
+// Rules language toggle
+function updateRulesLangToggle() {
+    document.querySelectorAll('[data-rules-lang]').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.rulesLang === rulesLanguage);
+    });
+}
+
+document.querySelectorAll('[data-rules-lang]').forEach(btn => {
+    btn.addEventListener('click', () => {
+        rulesLanguage = btn.dataset.rulesLang;
+        renderRulesContent();
+        updateRulesLangToggle();
+    });
 });
 
 // Settings Toggles
