@@ -915,9 +915,10 @@ input:checked+.slider:before {
         min-height: 60px;
     }
 
-    /* 3. Hide Players List to save space (can be toggled later if needed) */
+    /* 3. Show Players List on mobile */
     .players-list {
-        display: none;
+        display: block;
+        max-height: 100px;
     }
 
     .settings-fixed {
