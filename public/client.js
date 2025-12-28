@@ -232,6 +232,7 @@ function submitClue(team) {
     if (!value) return;
     socket.emit('submitClue', { roomId: currentRoomId, word: value });
     input.value = '';
+    input.blur(); // Close keyboard on mobile
 }
 
 wireClueInput('blue');
@@ -536,9 +537,15 @@ function renderTeamClues(team, clues, currentTeam, phase) {
     // Show latest first
     // clues.slice().reverse().forEach(clue => { ... }) 
     // Actually typically old to new is better for history reading
-    clues.forEach(clue => {
+    // Draw items
+    clues.forEach((clue, index) => {
         const item = document.createElement('div');
         item.className = 'clue-item';
+
+        // Highlight the latest clue if it's new (last one in list)
+        if (index === clues.length - 1) {
+            item.classList.add('new-item');
+        }
 
         const textSpan = document.createElement('span');
         textSpan.className = 'clue-text';
@@ -563,7 +570,9 @@ function renderTeamClues(team, clues, currentTeam, phase) {
     });
 
     // Scroll to bottom
-    list.scrollTop = list.scrollHeight;
+    requestAnimationFrame(() => {
+        list.scrollTop = list.scrollHeight;
+    });
 }
 
 function updateControlsState(gameState) {

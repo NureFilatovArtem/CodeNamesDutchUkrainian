@@ -72,6 +72,7 @@ body {
     letter-spacing: 2px;
     background: linear-gradient(45deg, var(--blue-team), var(--red-team));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -936,4 +937,18 @@ input:checked+.slider:before {
     textarea {
         font-size: 16px !important;
     }
+}
+
+@keyframes flash {
+    0% {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    100% {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.new-item {
+    animation: flash 2s ease-out;
 }
